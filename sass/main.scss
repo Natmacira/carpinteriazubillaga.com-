@@ -1,0 +1,30 @@
+/**
+ * Main Styles for site.
+ */
+
+// sass main.scss ../style.min.css --style=compressed
+// sass --watch main.scss:../style.min.css --style=compressed
+
+$theme-brown :        #B17F4A;
+$theme-brown-light:   #C0986E;
+$theme-brown-orange:  #E07D14;
+$theme-orange :       #F39200;
+$theme-salmon :       #DD8967;
+$theme-gray-one :       #F2F2F2;
+$theme-gray-two :       #F8F4F4;
+$theme-gray-three :     #E6E6E6;
+$theme-gray-fourht :    #00000029;
+$theme-gray-blue :      #9DABC2;
+$theme-black-eight :    #060000;
+$theme-black-nine :     #1D1D1B;
+
+
+
+
+$breakpoint-hamburger : 768px;
+
+@import "normalize";
+@import "fonts";
+@import "skeleton";
+@import "header";
+@import "footer";
