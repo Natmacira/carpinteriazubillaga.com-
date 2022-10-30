@@ -25,6 +25,7 @@ $breakpoint-hamburger : 768px;
 
 @import "normalize";
 @import "fonts";
-@import "skeleton";
 @import "header";
 @import "footer";
+@import "mixin";
+@import "skeleton";

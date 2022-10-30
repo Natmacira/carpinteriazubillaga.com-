@@ -30,7 +30,7 @@ button {
 
 body {
 	margin-top: -23px;
-	font-family: 'Source Sans Pro';
+	font-family: "Source Sans Pro";
 	main {
 		section.main-top {
 			background-image: url(img/mobile/home_mobile.png);
@@ -38,13 +38,19 @@ body {
 			background-size: cover;
 			background-position: bottom;
 			min-height: 300px;
+			@media (min-width: 400px) {
+				min-height: 400px;
+			}
+			@media (min-width: 550px) {
+				min-height: 500px;
+			}
 			h1 {
 				padding-top: 100px;
 				color: white;
-				font-size: 23px;
 				margin: 0 auto;
-				width: 300px;
+				width: 90%;
 				padding-top: 132px;
+				@include title-h1;
 				span {
 					color: $theme-salmon;
 					text-transform: uppercase;
@@ -53,6 +59,16 @@ body {
 
 			p {
 				display: none;
+			}
+
+			a {
+				color: white;
+				background-color: #dd8967;
+				padding: 2px 20px;
+				border-radius: 20px;
+				margin-left: 5%;
+				margin-top: 20px;
+				display: inline-block;
 			}
 		}
 	}
