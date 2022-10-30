@@ -27,3 +27,19 @@ a {
 button {
 	cursor: pointer;
 }
+
+body {
+	margin-top: -23px;
+	main {
+		section.main-top {
+			background-image: url(img/mobile/home_mobile.png);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: bottom;
+			min-height: 300px;
+			h1 {
+				padding-top: 100px;
+			}
+		}
+	}
+}

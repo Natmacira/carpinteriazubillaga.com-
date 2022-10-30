@@ -1,0 +1,32 @@
+body {
+	position: relative;
+	header {
+		position: absolute;
+		top: 0;
+		z-index: 1;
+		width: 100%;
+		section.principal-header-section {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding: 10px 25px;
+			background-color: rgba(242, 242, 242, 0.3);
+			margin-top: 40px;
+			ul {
+				display: none;
+			}
+		}
+		section.social-media-header {
+			display: flex;
+			flex-direction: column;
+			align-items: end;
+			padding-right: 25px;
+			padding-top: 80px;
+
+			img {
+				width: 20px;
+				margin-bottom: 12px;
+			}
+		}
+	}
+}
