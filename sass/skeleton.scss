@@ -30,6 +30,7 @@ button {
 
 body {
 	margin-top: -23px;
+	font-family: 'Source Sans Pro';
 	main {
 		section.main-top {
 			background-image: url(img/mobile/home_mobile.png);
@@ -39,6 +40,19 @@ body {
 			min-height: 300px;
 			h1 {
 				padding-top: 100px;
+				color: white;
+				font-size: 23px;
+				margin: 0 auto;
+				width: 300px;
+				padding-top: 132px;
+				span {
+					color: $theme-salmon;
+					text-transform: uppercase;
+				}
+			}
+
+			p {
+				display: none;
 			}
 		}
 	}
