@@ -12,8 +12,11 @@ body {
 			padding: 10px 25px;
 			background-color: rgba(242, 242, 242, 0.3);
 			margin-top: 40px;
+			img {
+				width: 60px;
+			}
 			ul {
-				display: none;
+				// display: none;
 			}
 		}
 		section.social-media-header {

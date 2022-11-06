@@ -1,14 +1,4 @@
-<?php
 
-/**
- * Site Version: 1.0.0
- * Site author: Natalia Ciraolo
- * Author website: https://github.com/Natmacira
- * Author e-mail: natimciraolo@gmail.com
- */
-
-define('SITE_VERSION', '1.0.0');
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,7 +8,9 @@ define('SITE_VERSION', '1.0.0');
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Carpinteria Zubillaga</title>
 	<link rel="stylesheet" href="style.min.css">
-	<script src="js/script.js?v=<?php echo SITE_VERSION; ?>"></script>
+	<script src="https://code.jquery.com/jquery-3.6.1.slim.min.js"
+	integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
+	<script src="js/burger-menu.js"></script>
 	<!-- <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
@@ -49,27 +41,32 @@ define('SITE_VERSION', '1.0.0');
 		<section class="principal-header-section">
 			<picture>
 				<!-- Desktop -->
-				<source media="(min-width:1200px)" srcset="img/desktop/logo_desktop.png"
+				<source media="(min-width:1200px)" srcset="img/desktop/logo-web.svg"
 					alt="Logo Carpinteria Zubillaga">
 				<!-- Mobile  -->
-				<img src="img/mobile/logo_mobile.png" alt="Logo Carpinteria Zubillaga">
+				<img src="img/logo-web.svg" alt="Logo Carpinteria Zubillaga">
 			</picture>
-			<ul>
-				<li><a href="">DESDE 1890</a></li>
-				<li><a href=""></a>PUERTAS NOBLES</li>
-				<li><a href=""></a>VIDEO</li>
-				<li><a href=""></a>CONTACTO</li>
-			</ul>
-			<!-- <picture>
-				Desktop
-				<source media="(min-width:1200px)" srcset="img/desktop/lupa_desktop.png" alt="lupa">
-				Mobile 
-				<img src="img/mobile/lupa_mobile.png" alt="lupa">
-			</picture> -->
-			<picture>
-				<!-- Mobile  -->
-				<img src="img/mobile/menu_mobile.png" alt="Botón para desplegar el menú mobile">
-			</picture>
+	
+			<div id="container" class="open clss">
+				<span class="cls"></span>
+				<span>
+					<ul class="sub-menu ">
+						<li>
+							<a href="#about" title="about">DESDE 1890</a>
+						</li>
+						<li>
+							<a href="#skills" title="skills">PUERTAS NOBLES</a>
+						</li>
+						<li>
+							<a href="#jobs" title="jobs">VIDEO</a>
+						</li>
+						<li>
+							<a href="#contact" title="contact">CONTACTO</a>
+						</li>
+					</ul>
+				</span>
+				<span class="cls"></span>
+			</div>
 		</section>
 		<section class="social-media-header">
 			<ul>
