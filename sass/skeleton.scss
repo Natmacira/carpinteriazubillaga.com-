@@ -75,7 +75,6 @@ body {
 		}
 
 		section.history-section {
-			background-color: rgba(177, 127, 74, 0.8);
 			color: white;
 			position: relative;
 			margin-top: -52px;
@@ -87,16 +86,30 @@ body {
 				font-size: 22px;
 			}
 
-			article.history-article {
+			article {
 				h4 {
 					font-size: 18px;
 					font-weight: 600;
 					font-style: italic;
 					margin-bottom: 0;
+					margin-top: 0;
 				}
 				p {
 					padding: 11px 25px;
 					text-align: justify;
+				}
+
+				&.history-article {
+					background-color: rgba(177, 127, 74, 0.8);
+				}
+				&.history-article-hnos {
+					background-color: rgba(192, 152, 110, 0.9);
+				}
+				&.history-article-raul {
+					background-color: rgba(192, 152, 110, 0.8);
+				}
+				&.history-article-diego {
+					background-color: rgba(192, 152, 110, 0.7);
 				}
 			}
 		}
