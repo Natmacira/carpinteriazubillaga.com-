@@ -115,5 +115,14 @@ body {
 				}
 			}
 		}
+		section.doors-section {
+			figure {
+				position: relative;
+				figcaption {
+					position: absolute;
+					top: 0;
+				}
+			}
+		}
 	}
 }
