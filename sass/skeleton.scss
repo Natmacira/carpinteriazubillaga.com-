@@ -64,13 +64,7 @@ body {
 			}
 
 			a {
-				color: white;
-				background-color: #dd8967;
-				padding: 2px 20px;
-				border-radius: 20px;
-				margin-left: 5%;
-				margin-top: 20px;
-				display: inline-block;
+				@include orange-button;
 			}
 		}
 
@@ -94,7 +88,6 @@ body {
 					margin-bottom: 0;
 					margin-top: 0;
 					padding-top: 30px;
-
 				}
 				p {
 					padding: 11px 25px;
@@ -120,7 +113,24 @@ body {
 				position: relative;
 				figcaption {
 					position: absolute;
-					top: 0;
+					top: 64px;
+					right: 44px;
+					text-align: right;
+					&.left-side {
+						left: 44px;
+						text-align: left;
+					}
+					h2 {
+						color: white;
+						margin-bottom: 0;
+					}
+					a {
+						@include orange-button;
+						margin-top: 10px;
+						font-size: 12px;
+						padding: 2px 15px;
+						margin-left: 0;
+					}
 				}
 			}
 		}

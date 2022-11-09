@@ -7,3 +7,13 @@
         font-size: 40px;
     }
 }
+
+@mixin orange-button() {
+    color: white;
+    background-color: #dd8967;
+    padding: 2px 20px;
+    border-radius: 20px;
+    margin-left: 5%;
+    margin-top: 20px;
+    display: inline-block;
+}
