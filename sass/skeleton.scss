@@ -143,5 +143,69 @@ body {
 				margin-bottom: 10px;
 			}
 		}
+
+		section.contact-section {
+			background-image: url("img/mobile/hola_mobile.jpg");
+			padding-bottom: 30px;
+			background-size: cover;
+			p {
+				font-size: 22px;
+				font-weight: bold;
+				text-align: center;
+				padding-top: 12px;
+			}
+			div {
+				text-align: center;
+				margin-bottom: 20px;
+				margin-top: 10px;
+
+				label {
+					display: inline;
+					margin-top: 5px;
+					margin-bottom: 5px;
+					input {
+						border-radius: 3px;
+						border: none;
+						margin-top: 3px;
+						margin-left: 3px;
+
+						&[type="text"] {
+							width: 30%;
+						}
+						&[type="mail"] {
+							width: 40%;
+						}
+
+						&::placeholder {
+							opacity: 0.5;
+							color: gray;
+						}
+					}
+				}
+			}
+
+			textarea {
+				display: block;
+				width: 95%;
+				margin: 0 auto;
+				border-radius: 3px;
+				border: none;
+				height: 60px;
+				height: 100px;
+				&::placeholder {
+					opacity: 0.5;
+					color: gray;
+				}
+			}
+
+			button {
+				@include orange-button;
+				border: none;
+				margin: 0 auto;
+				margin-top: 20px;
+				display: block;
+				font-weight: bold;
+			}
+		}
 	}
 }
