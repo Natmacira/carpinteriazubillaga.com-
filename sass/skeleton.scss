@@ -32,39 +32,26 @@ body {
 	margin-top: -23px;
 	font-family: "Source Sans Pro";
 	main {
-		section.main-top {
-			background-image: url(img/mobile/home_mobile.png);
-			background-repeat: no-repeat;
-			background-size: cover;
-			background-position: bottom;
-			min-height: 300px;
+		section.swiper.generic-swiper {
 			position: relative;
-			z-index: 2;
-			@media (min-width: 400px) {
-				min-height: 400px;
-			}
-			@media (min-width: 550px) {
-				min-height: 500px;
-			}
-			h1 {
-				padding-top: 100px;
-				color: white;
-				margin: 0 auto;
-				width: 90%;
-				padding-top: 132px;
-				@include title-h1;
-				span {
-					color: $theme-salmon;
-					text-transform: uppercase;
+			div.content-div {
+				position: absolute;
+				h1 {
+					padding-top: 100px;
+					color: white;
+					margin: 0 auto;
+					width: 90%;
+					padding-top: 132px;
+					@include title-h1;
+					span {
+						color: $theme-salmon;
+						text-transform: uppercase;
+					}
 				}
-			}
 
-			p {
-				display: none;
-			}
-
-			a {
-				@include orange-button;
+				a {
+					@include orange-button;
+				}
 			}
 		}
 
@@ -74,7 +61,6 @@ body {
 			margin-top: -52px;
 			z-index: 1;
 			text-align: center;
-			padding-top: 80px;
 
 			h3 {
 				font-size: 22px;
@@ -96,6 +82,7 @@ body {
 
 				&.history-article {
 					background-color: rgba(177, 127, 74, 0.8);
+					padding-top: 80px;
 				}
 				&.history-article-hnos {
 					background-color: rgba(192, 152, 110, 0.9);
@@ -208,6 +195,5 @@ body {
 				font-weight: bold;
 			}
 		}
-
 	}
 }

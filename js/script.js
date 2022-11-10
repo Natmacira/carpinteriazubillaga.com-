@@ -1,25 +1,18 @@
+document.addEventListener('DOMContentLoaded', function(){
 
-//    window.addEventListener('load', function () {
-//     // Hamburger Menu
-// 	var hamburgerButton = document.getElementById('burger-menu-button');
+	let welcomeSwiper = new Swiper('.generic-swiper', {
+		spaceBetween: 30,
+		loop: false,
 
-// 	hamburgerButton.addEventListener('click', function () {
-// 		document.body.classList.toggle('hamburger-menu-active');
-// 	});
+		pagination: {
+			el: ".swiper-pagination",
+			clickable: true
+		},
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		},
+	});
+});
 
-// 	var anchors = document.querySelectorAll('a[href^="#"]');
-// 	for (let i = 0; i < anchors.length; i++) {
-// 		anchors[i].addEventListener('click', function () {
-// 			document.body.classList.remove('hamburger-menu-active');
-// 		});
-// 	}
-
-// 	// Scrolled Page class
-// 	window.addEventListener('scroll', function () {
-// 		if (window.scrollY > 0) {
-// 			document.body.classList.add('page-scrolled');
-// 		} else {
-// 			document.body.classList.remove('page-scrolled');
-// 		}
-// 	});
-// });
+console.log('test');
