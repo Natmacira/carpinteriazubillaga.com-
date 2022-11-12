@@ -277,7 +277,7 @@
     display: inline-block;
     border-radius: 50%;
     background: var(--swiper-pagination-bullet-inactive-color, $theme-orange);
-    opacity: var(--swiper-pagination-bullet-inactive-opacity, 0.2);
+    opacity: var(--swiper-pagination-bullet-inactive-opacity, 0.4);
 }
 button.swiper-pagination-bullet {
     border: none;

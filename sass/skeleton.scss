@@ -63,6 +63,27 @@ body {
 					margin-left: 0;
 				}
 			}
+
+			article.swiper-slide.history-slide {
+				div.content-div {
+					top: 41%;
+					@media (min-width: 400px) {
+						width: 240px;
+					}
+					@media (min-width: 550px) {
+						width: 290px;
+					}
+				}
+			}
+			article.swiper-slide.know-us-more {
+				div.content-div {
+					top: 41%;
+					h1 {
+						color: $theme-salmon;
+
+					}
+				}
+			}
 		}
 
 		section.history-section {
