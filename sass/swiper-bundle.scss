@@ -240,9 +240,10 @@
 .swiper-pagination-bullets.swiper-pagination-horizontal,
 .swiper-pagination-custom,
 .swiper-pagination-fraction {
-    bottom: 10px;
-    left: 0;
+    bottom: 46%;
+    left: -39%;
     width: 100%;
+    transform: rotate(90deg);
 }
 .swiper-pagination-bullets-dynamic {
     overflow: hidden;
@@ -275,7 +276,7 @@
     height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 8px));
     display: inline-block;
     border-radius: 50%;
-    background: var(--swiper-pagination-bullet-inactive-color, #000);
+    background: var(--swiper-pagination-bullet-inactive-color, $theme-orange);
     opacity: var(--swiper-pagination-bullet-inactive-opacity, 0.2);
 }
 button.swiper-pagination-bullet {
@@ -320,7 +321,7 @@ button.swiper-pagination-bullet {
 }
 .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
-    margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 4px);
+    margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 8px);
 }
 .swiper-horizontal > .swiper-pagination-bullets.swiper-pagination-bullets-dynamic,
 .swiper-pagination-horizontal.swiper-pagination-bullets.swiper-pagination-bullets-dynamic {

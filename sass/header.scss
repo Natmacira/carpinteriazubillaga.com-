@@ -20,15 +20,39 @@ body {
 			}
 		}
 		section.social-media-header {
-			display: flex;
-			flex-direction: column;
-			align-items: end;
-			padding-right: 25px;
-			padding-top: 80px;
+			// display: flex;
+			// flex-direction: column;
+			// align-items: end;
+			// padding-right: 25px;
+			// padding-top: 12%;
+			// @media (min-width: 450px) {
+			// 	padding-top: 19%;
+			// }
+			position: relative;
 
-			img {
-				width: 25px;
-				margin-bottom: 12px;
+			ul {
+				position: absolute;
+				right: 42px;
+				top: 35px;
+				@media (min-width: 400px) {
+					top: 64px;
+				}
+				@media (min-width: 450px) {
+					top: 80px;
+				}
+				@media (min-width: 500px) {
+					top: 100px;
+				}
+				@media (min-width: 600px) {
+					top: 150px;
+				}
+				li {
+					padding-bottom: 10px;
+					img {
+						width: 25px;
+						margin-bottom: 12px;
+					}
+				}
 			}
 		}
 	}

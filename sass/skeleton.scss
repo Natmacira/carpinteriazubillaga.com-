@@ -36,13 +36,22 @@ body {
 			position: relative;
 			div.content-div {
 				position: absolute;
+				left: 0;
+				right: 0;
+				margin-left: auto;
+				margin-right: auto;
+				width: 200px;
+				top: 32%;
+				@media (min-width: 550px) {
+					width: 240px;
+				}
 				h1 {
-					padding-top: 100px;
 					color: white;
 					margin: 0 auto;
-					width: 90%;
-					padding-top: 132px;
 					@include title-h1;
+					@media (min-width: 550px) {
+						font-size:34px;
+					}
 					span {
 						color: $theme-salmon;
 						text-transform: uppercase;
@@ -51,6 +60,7 @@ body {
 
 				a {
 					@include orange-button;
+					margin-left: 0;
 				}
 			}
 		}
