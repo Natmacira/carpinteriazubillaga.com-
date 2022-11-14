@@ -13,8 +13,6 @@ require_once 'header.php';
         </section>
         <section class="history-section" id="history">
             <article class="history-article">
-                <h3>DESDE 1890</h3>
-                <h4>Ramón Zubillaga</h4>
                 <p>Eran épocas de herramientas manuales y nobles maderas macizas (roble eslavonia, cedro paraguayo) que
                     se desembarcaban en el antiguo puerto de Mar del Plata y se transportaban en carretones hasta el
                     taller. Fue en el año 1891 cuando Ramón Zubillaga instaló su taller de carpintería en La Rioja al
@@ -32,7 +30,7 @@ require_once 'header.php';
                     </div>
                     <picture>
                         <!-- Desktop -->
-                        <source media="(min-width:1200px)" srcset="img/moldura-aplicada/desktop_molduraaplicada_carrusel1.jpg"
+                        <source media="(min-width:1200px)" srcset="img/moldura-aplicada/desktop_molduraaplicada_carrusel.jpg"
                             alt="Logo Carpinteria Zubillaga">
                         <!-- Mobile  -->
                         <img src="img/moldura-aplicada/mobile_molduraaplicada_carrusel1.jpg" alt="test">
