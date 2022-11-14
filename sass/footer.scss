@@ -5,10 +5,10 @@ footer {
     flex-direction: column;
     background-color: rgba(177, 127, 74, 0.8);
     padding: 0 10px;
-    @media (min-width:768px) {
-     flex-direction: row;
-     align-items: center;
-     padding: 17px 20px;
+    @media (min-width: 768px) {
+        flex-direction: row;
+        align-items: center;
+        padding: 17px 20px;
     }
     ul {
         img {
@@ -27,14 +27,16 @@ footer {
             margin: 10px;
             justify-content: center;
             flex-wrap: wrap;
-            @media (min-width:768px) {
+            @media (min-width: 768px) {
                 width: 70%;
             }
             li {
                 padding-right: 5px;
                 padding-left: 5px;
-                @media (min-width:768px) {
-                 font-size: 18px;
+                @media (min-width: 768px) {
+                    font-size: 24px;
+                    padding-right: 20px;
+                    padding-left: 20px;
                 }
             }
             li:nth-child(2) {
@@ -45,11 +47,10 @@ footer {
                 border-right: solid 1px;
             }
         }
-
     }
     ul:nth-child(2) {
         padding-bottom: 10px;
-        @media (min-width:768px) {
+        @media (min-width: 768px) {
             padding-bottom: 0;
         }
         li {

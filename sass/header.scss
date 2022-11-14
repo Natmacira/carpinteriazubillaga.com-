@@ -41,6 +41,15 @@ body {
 				@media (min-width: 600px) {
 					top: 150px;
 				}
+				@media (min-width: 1200px) {
+					top: 270px;
+				}
+				@media (min-width: 1300px) {
+					top: 332px;
+				}
+				@media (min-width: 1400px) {
+					top: 385px;
+				}
 				li {
 					padding-bottom: 10px;
 					img {
@@ -60,6 +69,11 @@ body {
 				font-weight: bold;
 				width: 100%;
 				font-size: 18px;
+
+				 li:hover {
+					transform: scale(1.5);
+					transition: all 0.5s ease;
+				}
 			}
 		}
 	}
