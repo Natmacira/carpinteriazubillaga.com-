@@ -108,6 +108,9 @@ body {
 			@media (min-width: 1200px) {
 				display: flex;
 				align-items: center;
+				position: relative;
+				background-color: rgba(177, 127, 74, 0.8);
+				padding: 200px 60px 80px;
 			}
 			h3 {
 				font-size: 22px;
@@ -116,9 +119,12 @@ body {
 
 			article {
 				@media (min-width: 1200px) {
-					position: relative;
 					h3 {
 						position: absolute;
+						right: 0;
+						left: 0;
+						top: 60px;
+						font-size: 60px;
 					}
 				}
 				h4 {
@@ -128,32 +134,44 @@ body {
 					margin-bottom: 0;
 					margin-top: 0;
 					padding-top: 30px;
+					@media (min-width: 1200px) {
+						text-align: left;
+					}
 				}
 				p {
 					padding: 11px 25px;
 					text-align: justify;
+					@media (min-width: 1200px) {
+						font-size: 18px;
+						text-align: left;
+						padding: 11px 25px 0 0;
+					}
 				}
 
 				&.history-article {
 					background-color: rgba(177, 127, 74, 0.8);
 					padding-top: 40px;
+					@media (min-width: 1200px) {
+						background-color: transparent;
+						padding-top: 0;
+					}
 				}
 				&.history-article-hnos {
 					background-color: rgba(192, 152, 110, 0.9);
 					@media (min-width: 1200px) {
-						background-color: rgba(177, 127, 74, 0.8);
+						background-color: transparent;
 					}
 				}
 				&.history-article-raul {
 					background-color: rgba(192, 152, 110, 0.8);
 					@media (min-width: 1200px) {
-						background-color: rgba(177, 127, 74, 0.8);
+						background-color: transparent;
 					}
 				}
 				&.history-article-diego {
 					background-color: rgba(192, 152, 110, 0.7);
 					@media (min-width: 1200px) {
-						background-color: rgba(177, 127, 74, 0.8);
+						background-color: transparent;
 					}
 				}
 			}
@@ -175,6 +193,10 @@ body {
 					h2 {
 						color: white;
 						margin-bottom: 0;
+						text-shadow: 0px 3px 6px #0000005c;
+						@media (min-width: 1200px) {
+							font-size: 60px;
+						}
 					}
 					a {
 						@include orange-button;
@@ -182,6 +204,9 @@ body {
 						font-size: 12px;
 						padding: 2px 15px;
 						margin-left: 0;
+						@media (min-width: 1200px) {
+							font-size: 20px;
+						}
 					}
 				}
 			}
@@ -195,25 +220,44 @@ body {
 		}
 
 		section.contact-section {
-			background-image: url("img/mobile/hola_mobile.jpg");
+			background-image: url("img/home desktop/contacto.jpg");
 			padding-bottom: 30px;
 			background-size: cover;
 			margin-bottom: 20px;
+			
 			p {
 				font-size: 22px;
 				font-weight: bold;
 				text-align: center;
 				padding-top: 12px;
+				@media (min-width: 768px) {
+					font-size: 32px;
+				}
+			}
+
+			form {
+				@media (min-width: 768px) {
+					max-width: 700px;
+					margin: 0 auto;
+				}
 			}
 			div {
 				text-align: center;
 				margin-bottom: 20px;
 				margin-top: 10px;
+				@media (min-width: 1200px) {
+					padding-left: 20px;
+					text-align: left;
+				}
 
 				label {
 					display: inline;
 					margin-top: 5px;
 					margin-bottom: 5px;
+					font-weight: bold;
+					@media (min-width: 768px) {
+						font-size: 19px;
+					}
 					input {
 						border-radius: 3px;
 						border: none;
@@ -222,9 +266,19 @@ body {
 
 						&[type="text"] {
 							width: 30%;
+							@media (min-width: 768px) {
+								width: 25%;
+								margin-right: 5px;
+								margin-left: 10px;
+							}
 						}
 						&[type="mail"] {
 							width: 40%;
+							@media (min-width: 768px) {
+								width: 53%;
+								margin-right: 5px;
+								margin-left: 10px;
+							}
 						}
 
 						&::placeholder {
@@ -256,6 +310,8 @@ body {
 				margin-top: 20px;
 				display: block;
 				font-weight: bold;
+				padding: 10px 44px;
+				font-size: 20px;
 			}
 		}
 	}
