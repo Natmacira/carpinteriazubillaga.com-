@@ -22,13 +22,19 @@ body.puerta {
 			margin-top: -52px;
 			z-index: 1;
 			text-align: center;
+			margin-top: -6%;
 
-			h3 {
-				font-size: 22px;
-				margin-bottom: 0;
+			@media (min-width: 1200px) {
+				padding-top: 6%;
 			}
 
 			article {
+				h3 {
+					position: static;
+					font-size: 22px;
+					margin-bottom: 0;
+				}
+
 				h4 {
 					font-size: 18px;
 					font-weight: 600;
@@ -37,29 +43,21 @@ body.puerta {
 					margin-top: 0;
 					padding-top: 30px;
 				}
+
 				p {
 					padding: 11px 25px;
 					text-align: justify;
 				}
 
 				&.history-article {
-					background-color: rgba(177, 127, 74, 0.8);
 					padding-top: 40px;
-				}
-				&.history-article-hnos {
-					background-color: rgba(192, 152, 110, 0.9);
-				}
-				&.history-article-raul {
-					background-color: rgba(192, 152, 110, 0.8);
-				}
-				&.history-article-diego {
-					background-color: rgba(192, 152, 110, 0.7);
 				}
 			}
 		}
 		section.swiper.generic-swiper {
+			max-width: 500px;
 			position: relative;
-			// background-color: rgba(177,127,74,0.8);
+
 			div.content-div {
 				position: absolute;
 				left: 20%;
@@ -120,9 +118,7 @@ body.puerta {
 
 		section.video-section {
 			iframe {
-				width: 100%;
-				margin-top: 40px;
-				margin-bottom: 10px;
+				margin: auto;
 			}
 		}
 
