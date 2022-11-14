@@ -36,7 +36,7 @@
 </head>
 
 <body <?php if ( basename( $_SERVER['SCRIPT_FILENAME'] ) !== "index.php" ) { echo 'class="puerta"'; } ?>>
-	<header>
+<header>
 		<section class="principal-header-section">
 			<a href="index.php">
 				<picture>
@@ -53,10 +53,10 @@
 				<span>
 					<ul class="sub-menu ">
 						<li>
-							<a href="#history" title="about">DESDE 1890</a></figcaption>
+							<a href="index.php#history" title="about">DESDE 1890</a></figcaption>
 						</li>
 						<li>
-							<a href="#nobles" title="skills">PUERTAS NOBLES</a></figcaption>
+							<a href="index.php#nobles" title="skills">PUERTAS NOBLES</a></figcaption>
 						</li>
 						<li>
 							<a href="#video" title="jobs">VIDEO</a></figcaption>
@@ -71,10 +71,10 @@
 
 			<ul class="desktop-menu">
 				<li>
-					<a href="#history" title="about">DESDE 1890</a></figcaption>
+					<a href="index.php#history" title="about">DESDE 1890</a></figcaption>
 				</li>
 				<li>
-					<a href="#nobles" title="skills">PUERTAS NOBLES</a></figcaption>
+					<a href="index.php#nobles" title="skills">PUERTAS NOBLES</a></figcaption>
 				</li>
 				<li>
 					<a href="#video" title="jobs">VIDEO</a></figcaption>

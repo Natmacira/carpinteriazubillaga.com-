@@ -1,190 +1,128 @@
 body.puerta {
-	margin-top: -23px;
-	font-family: "Source Sans Pro";
+    margin-top: -23px;
+    font-family: "Source Sans Pro";
 
-	main {
-		section.door-presentation {
-			position: relative;
-			z-index: 2;
-			h1 {
-				position: absolute;
-				top: 65%;
-				right: 44px;
-				color: white;
-				font-size: 30px;
-				text-shadow: 0px 3px 6px #0000005c;
-			}
-		}
+    main {
+        section.door-presentation {
+            position: relative;
+            z-index: 2;
+            h1 {
+                position: absolute;
+                top: 65%;
+                right: 44px;
+                color: white;
+                font-size: 30px;
+                text-shadow: 0px 3px 6px #0000005c;
+                @media (min-width: 1200px) {
+                    font-size: 65px;
+                }
+            }
+        }
 
-		section.history-section {
-			color: white;
-			position: relative;
-			margin-top: -52px;
-			z-index: 1;
-			text-align: center;
-			margin-top: -6%;
+        section.history-section {
+            color: white;
+            position: relative;
+            margin-top: -52px;
+            z-index: 1;
+            text-align: center;
+            margin-top: -6%;
 
-			@media (min-width: 1200px) {
-				padding-top: 6%;
-			}
+            @media (min-width: 1200px) {
+                padding-top: 6%;
+            }
 
-			article {
-				h3 {
-					position: static;
-					font-size: 22px;
-					margin-bottom: 0;
-				}
+            article {
+                h3 {
+                    position: static;
+                    font-size: 22px;
+                    margin-bottom: 0;
+                }
 
-				h4 {
-					font-size: 18px;
-					font-weight: 600;
-					font-style: italic;
-					margin-bottom: 0;
-					margin-top: 0;
-					padding-top: 30px;
-				}
+                h4 {
+                    font-size: 18px;
+                    font-weight: 600;
+                    font-style: italic;
+                    margin-bottom: 0;
+                    margin-top: 0;
+                    padding-top: 30px;
+                }
 
-				p {
-					padding: 11px 25px;
-					text-align: justify;
-				}
+                p {
+                    padding: 11px 25px;
+                    text-align: justify;
+                }
 
-				&.history-article {
-					padding-top: 40px;
-				}
-			}
-		}
-		section.swiper.generic-swiper {
-			max-width: 500px;
-			position: relative;
+                &.history-article {
+                    padding-top: 40px;
+                }
+            }
+        }
+        section.swiper.generic-swiper {
+            max-width: 500px;
+            position: relative;
 
-			div.content-div {
-				position: absolute;
-				left: 20%;
-				border: 60%;
-				width: 65%;
-				z-index: 3;
-				bottom: 21%;
-				// hasta acá es lo que necesito
-				right: 0;
-				margin-left: 0;
-				margin-right: 0;
-				top: auto;
+            div.content-div {
+                position: absolute;
+                left: 20%;
+                border: 60%;
+                width: 65%;
+                z-index: 3;
+                bottom: 21%;
+                // hasta acá es lo que necesito
+                right: 0;
+                margin-left: 0;
+                margin-right: 0;
+                top: auto;
 
-				@media (min-width: 550px) {
-					width: 66%;
-					left: 20%;
-				}
-				h4 {
-					@include title-h1;
-					color: white;
-					margin: 0 auto;
-					font-size: 22px;
-					margin-top: 10px;
-					text-shadow: 0px 3px 6px #0000005c;
-					@media (min-width: 550px) {
-						font-size: 34px;
-					}
-					span {
-						color: $theme-salmon;
-						text-transform: uppercase;
-					}
-				}
+                @media (min-width: 550px) {
+                    width: 66%;
+                    left: 20%;
+                }
+                h4 {
+                    @include title-h1;
+                    color: white;
+                    margin: 0 auto;
+                    font-size: 22px;
+                    margin-top: 10px;
+                    text-shadow: 0px 3px 6px #0000005c;
+                    @media (min-width: 550px) {
+                        font-size: 34px;
+                    }
+                    span {
+                        color: $theme-salmon;
+                        text-transform: uppercase;
+                    }
+                }
 
-				a {
-					@include orange-button;
-					margin-left: 0;
-					font-size: 13px;
-					padding-bottom: 5px;
-				}
-			}
-			img {
-				padding: 38px 50px;
-				border-radius: 67px;
-			}
+                a {
+                    @include orange-button;
+                    margin-left: 0;
+                    font-size: 13px;
+                    padding-bottom: 5px;
+                }
+            }
+            img {
+                padding: 38px 50px;
+                border-radius: 67px;
+            }
 
-			.swiper-horizontal > .swiper-pagination-bullets,
-			.swiper-pagination-bullets.swiper-pagination-horizontal {
-				bottom: 17%;
-				left: -27%;
-				width: 100%;
-				transform: rotate(0);
-			}
-			.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
-			.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
-				margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 2px);
-			}
-		}
+            .swiper-horizontal > .swiper-pagination-bullets,
+            .swiper-pagination-bullets.swiper-pagination-horizontal {
+                bottom: 17%;
+                left: -27%;
+                width: 100%;
+                transform: rotate(0);
+            }
+            .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+            .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+                margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 2px);
+            }
+        }
 
-		section.video-section {
-			iframe {
-				margin: auto;
-			}
-		}
-
-		section.contact-section {
-			background-image: url("img/mobile/hola_mobile.jpg");
-			padding-bottom: 30px;
-			background-size: cover;
-			margin-bottom: 20px;
-			p {
-				font-size: 22px;
-				font-weight: bold;
-				text-align: center;
-				padding-top: 12px;
-			}
-			div {
-				text-align: center;
-				margin-bottom: 20px;
-				margin-top: 10px;
-
-				label {
-					display: inline;
-					margin-top: 5px;
-					margin-bottom: 5px;
-					input {
-						border-radius: 3px;
-						border: none;
-						margin-top: 3px;
-						margin-left: 3px;
-
-						&[type="text"] {
-							width: 30%;
-						}
-						&[type="mail"] {
-							width: 40%;
-						}
-
-						&::placeholder {
-							opacity: 0.5;
-							color: gray;
-						}
-					}
-				}
-			}
-
-			textarea {
-				display: block;
-				width: 95%;
-				margin: 0 auto;
-				border-radius: 3px;
-				border: none;
-				height: 60px;
-				height: 100px;
-				&::placeholder {
-					opacity: 0.5;
-					color: gray;
-				}
-			}
-
-			button {
-				@include orange-button;
-				border: none;
-				margin: 0 auto;
-				margin-top: 20px;
-				display: block;
-				font-weight: bold;
-			}
-		}
-	}
+        section.video-section {
+            iframe {
+                margin: auto;
+            }
+        }
+    }
 }
