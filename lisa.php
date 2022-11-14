@@ -13,7 +13,7 @@ require_once 'header.php';
         </section>
         <section class="history-section" id="history">
             <article class="history-article">
-               
+
                 <p>Eran épocas de herramientas manuales y nobles maderas macizas (roble eslavonia, cedro paraguayo) que
                     se desembarcaban en el antiguo puerto de Mar del Plata y se transportaban en carretones hasta el
                     taller. Fue en el año 1891 cuando Ramón Zubillaga instaló su taller de carpintería en La Rioja al
@@ -55,28 +55,11 @@ require_once 'header.php';
                 </article>
 
             </div>
-            <div class="swiper-pagination">
-
-            </div>
+            <div class="swiper-pagination"></div>
 
         </section>
-        <section class="video-section" id="video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/-JAQbMNdgQ0"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        </section>
-        <section class="contact-section">
-            <p>HOLA, escribinos tu consulta</p>
-            <form action="">
-                <div>
-                    <label for="">Nombre<input type="text" name="" id="" placeholder="Nombre"></label>
-                    <label for="">Mail<input type="mail" placeholder="Mail"></label>
-                </div>
-                <textarea name="" id="" cols="30" rows="10" placeholder="Consulta"></textarea>
-                <button>enviar</button>
-            </form>
-        </section>
+
 <?php
-
+require_once 'video.php';
+require_once 'contacto.php';
 require_once 'footer.php';

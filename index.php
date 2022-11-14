@@ -48,9 +48,7 @@ require_once 'header.php';
 					</picture>
 				</article>
 			</div>
-			<div class="swiper-pagination">
-
-			</div>
+			<div class="swiper-pagination"></div>
 
 		</section>
 		<section class="history-section" id="history">
@@ -175,23 +173,8 @@ require_once 'header.php';
 				</figcaption>
 			</figure>
 		</section>
-		<section class="video-section" id="video">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/-JAQbMNdgQ0"
-				title="YouTube video player" frameborder="0"
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-				allowfullscreen></iframe>
-		</section>
-		<section class="contact-section">
-			<p>HOLA, escribinos tu consulta</p>
-			<form action="">
-				<div>
-					<label for="">Nombre<input type="text" name="" id="" placeholder="Nombre"></label>
-					<label for="">Mail<input type="mail" placeholder="Mail"></label>
-				</div>
-				<textarea name="" id="" cols="30" rows="10" placeholder="Consulta"></textarea>
-				<button>enviar</button>
-			</form>
-		</section>
-<?php
 
+<?php
+require_once 'video.php';
+require_once 'contacto.php';
 require_once 'footer.php';
