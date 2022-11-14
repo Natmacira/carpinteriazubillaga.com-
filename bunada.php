@@ -35,7 +35,7 @@
 	<meta property="og:url" content="https://nodo.org.ar/" /> -->
 </head>
 
-<body class="puerta moldura">
+<body class="puerta buñada">
     <header>
         <section class="principal-header-section">
             <a href="index.html"><picture>
@@ -81,12 +81,12 @@
         <section class="door-presentation">
             <picture>
                 <!-- Desktop -->
-                <source media="(min-width:768px)" srcset="img/moldura aplicada/desktop_portada.png"
+                <source media="(min-width:768px)" srcset="img/buñada/desktop_buñada_portada.png"
                     alt="Logo Carpinteria Zubillaga">
                 <!-- Mobile  -->
-                <img src="img/moldura aplicada/mobile_portada.png" alt="">
+                <img src="img/buñada/mobile_buñada_portada.png" alt="">
             </picture>
-            <h1>Moldura aplicada</h1>
+            <h1>Buñada</h1>
         </section>
         <section class="history-section" id="history">
             <article class="history-article">
@@ -105,14 +105,14 @@
                 <article class="swiper-slide">
                     <div class="content-div">
                         <a href="#contacto">consulta</a></figcaption>
-                        <h4>Detalles</h4>
+                        <h4>Diseño</h4>
                     </div>
                     <picture>
                         <!-- Desktop -->
-                        <source media="(min-width:1200px)" srcset="img/moldura aplicada/desktop_molduraaplicada_carrusel1.jpg"
+                        <source media="(min-width:1200px)" srcset="img/buñada/desktop_buñada_carrusel1.jpg"
                             alt="Logo Carpinteria Zubillaga">
                         <!-- Mobile  -->
-                        <img src="img/moldura aplicada/mobile_molduraaplicada_carrusel1.jpg" alt="test">
+                        <img src="img/buñada/mobile_buñada_carrusel1_Mesa de trabajo 1.jpg" alt="test">
                     </picture>
                 </article>
 
@@ -124,10 +124,10 @@
                     </div>
                     <picture>
                         <!-- Desktop -->
-                        <source media="(min-width:1200px)" srcset="img/moldura aplicada/desktop_molduraaplicada_carrusel2.jpg"
+                        <source media="(min-width:1200px)" srcset="img/buñada/desktop_buñada_carrusel2.jpg"
                             alt="Logo Carpinteria Zubillaga">
                         <!-- Mobile  -->
-                        <img src="img/moldura aplicada/mobile_molduraaplicada_carrusel2.jpg"
+                        <img src="img/buñada/mobile_buñada_carrusel2.jpg"
                             alt="Foto de una parte de una puerta enchapada">
                     </picture>
                 </article>
@@ -155,22 +155,6 @@
                 <button>enviar</button>
             </form>
         </section>
-    </main>
-    <footer>
-        <ul class="ul-footer-information">
-            <li>Rosales 8245</li>
-            <li>Mar del Plata</li>
-            <li>Argentina</li>
-            <li>Tel: 54 223 4833687</li>
-        </ul>
-        <ul class="social-media-footer">
-            <li><a href=""><img src="img/desktop/ig_desktop.png" alt="Instagram logo link"></a></figcaption>
-            </li>
-            <li><a href=""><img src="img/desktop/youtube_desktop.png" alt="Youtube logo link"></a></figcaption>
-            </li>
-        </ul>
-    </footer>
+<?php
 
-</body>
-
-</html>
+require_once 'footer.php';
