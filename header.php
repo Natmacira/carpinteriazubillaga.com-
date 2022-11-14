@@ -35,7 +35,7 @@
 	<meta property="og:url" content="https://nodo.org.ar/" /> -->
 </head>
 
-<body <?php if ( basename(__FILE__) !== "index.php" ) { echo 'class="puerta"'; } ?>>
+<body <?php if ( basename( $_SERVER['SCRIPT_FILENAME'] ) !== "index.php" ) { echo 'class="puerta"'; } ?>>
 	<header>
 		<section class="principal-header-section">
 			<a href="index.php">
