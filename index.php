@@ -100,7 +100,7 @@ require_once 'header.php';
 				</picture>
 				<figcaption>
 					<h2>Puerta <br> Enchapada</h2>
-					<a href="enchapada.html">+ info</a>
+					<a href="enchapada.php">+ info</a>
 				</figcaption>
 			</figure>
 			<figure>
@@ -114,7 +114,7 @@ require_once 'header.php';
 				</picture>
 				<figcaption class="left-side">
 					<h2>Puerta <br> Pantografiada</h2>
-					<a href="pantografiada.html">+ info</a>
+					<a href="pantografiada.php">+ info</a>
 				</figcaption>
 			</figure>
 			<figure>
@@ -129,7 +129,7 @@ require_once 'header.php';
 
 				<figcaption>
 					<h2>Puerta Buñada</h2>
-					<a href="bunada.html">+ info</a>
+					<a href="bunada.php">+ info</a>
 				</figcaption>
 			</figure>
 			<figure>
@@ -143,7 +143,7 @@ require_once 'header.php';
 				</picture>
 				<figcaption class="left-side">
 					<h2>Puerta Lisa</h2>
-					<a href="lisa.html">+ info</a>
+					<a href="lisa.php">+ info</a>
 				</figcaption>
 			</figure>
 			<figure>
@@ -157,7 +157,7 @@ require_once 'header.php';
 				</picture>
 				<figcaption>
 					<h2>Puerta Hidden</h2>
-					<a href="hidden.html">+ info</a>
+					<a href="hidden.php">+ info</a>
 				</figcaption>
 			</figure>
 			<figure>
@@ -171,7 +171,7 @@ require_once 'header.php';
 				</picture>
 				<figcaption class="left-side">
 					<h2>Puerta <br> con moldura aplicada</h2>
-					<a href="moldura-aplicada.html">+ info</a>
+					<a href="moldura-aplicada.php">+ info</a>
 				</figcaption>
 			</figure>
 		</section>

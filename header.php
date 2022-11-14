@@ -38,7 +38,7 @@
 <body>
 	<header>
 		<section class="principal-header-section">
-			<a href="index.html">
+			<a href="index.php">
 				<picture>
 					<!-- Desktop -->
 					<source media="(min-width:1200px)" srcset="img/logo-web.svg"
