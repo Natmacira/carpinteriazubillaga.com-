@@ -4,10 +4,10 @@ require_once 'header.php';
         <section class="door-presentation">
             <picture>
                 <!-- Desktop -->
-                <source media="(min-width:768px)" srcset="img/moldura aplicada/desktop_portada.png"
+                <source media="(min-width:768px)" srcset="img/moldura-aplicada/desktop_portada.png"
                     alt="Logo Carpinteria Zubillaga">
                 <!-- Mobile  -->
-                <img src="img/moldura aplicada/mobile_portada.png" alt="">
+                <img src="img/moldura-aplicada/mobile_portada.png" alt="">
             </picture>
             <h1>Moldura aplicada</h1>
         </section>
@@ -32,10 +32,10 @@ require_once 'header.php';
                     </div>
                     <picture>
                         <!-- Desktop -->
-                        <source media="(min-width:1200px)" srcset="img/moldura aplicada/desktop_molduraaplicada_carrusel1.jpg"
+                        <source media="(min-width:1200px)" srcset="img/moldura-aplicada/desktop_molduraaplicada_carrusel1.jpg"
                             alt="Logo Carpinteria Zubillaga">
                         <!-- Mobile  -->
-                        <img src="img/moldura aplicada/mobile_molduraaplicada_carrusel1.jpg" alt="test">
+                        <img src="img/moldura-aplicada/mobile_molduraaplicada_carrusel1.jpg" alt="test">
                     </picture>
                 </article>
 
@@ -47,10 +47,10 @@ require_once 'header.php';
                     </div>
                     <picture>
                         <!-- Desktop -->
-                        <source media="(min-width:1200px)" srcset="img/moldura aplicada/desktop_molduraaplicada_carrusel2.jpg"
+                        <source media="(min-width:1200px)" srcset="img/moldura-aplicada/desktop_molduraaplicada_carrusel2.jpg"
                             alt="Logo Carpinteria Zubillaga">
                         <!-- Mobile  -->
-                        <img src="img/moldura aplicada/mobile_molduraaplicada_carrusel2.jpg"
+                        <img src="img/moldura-aplicada/mobile_molduraaplicada_carrusel2.jpg"
                             alt="Foto de una parte de una puerta enchapada">
                     </picture>
                 </article>
