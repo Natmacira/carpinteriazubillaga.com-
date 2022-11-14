@@ -46,12 +46,19 @@ body {
 				@media (min-width: 550px) {
 					width: 240px;
 				}
+				@media (min-width: 1200px) {
+					width: 51%;
+				}
 				h1 {
 					color: white;
 					margin: 0 auto;
+					text-shadow: 0px 3px 6px #0000005c;
 					@include title-h1;
 					@media (min-width: 550px) {
 						font-size: 34px;
+					}
+					@media (min-width: 1200px) {
+						font-size: 50px;
 					}
 					span {
 						color: $theme-salmon;
@@ -74,6 +81,9 @@ body {
 					@media (min-width: 550px) {
 						width: 290px;
 					}
+					@media (min-width: 1200px) {
+						width: 51%;
+					}
 				}
 			}
 			article.swiper-slide.know-us-more {
@@ -95,13 +105,22 @@ body {
 			margin-top: -52px;
 			z-index: 1;
 			text-align: center;
-
+			@media (min-width: 1200px) {
+				display: flex;
+				align-items: center;
+			}
 			h3 {
 				font-size: 22px;
 				margin-bottom: 0;
 			}
 
 			article {
+				@media (min-width: 1200px) {
+					position: relative;
+					h3 {
+						position: absolute;
+					}
+				}
 				h4 {
 					font-size: 18px;
 					font-weight: 600;
@@ -121,12 +140,21 @@ body {
 				}
 				&.history-article-hnos {
 					background-color: rgba(192, 152, 110, 0.9);
+					@media (min-width: 1200px) {
+						background-color: rgba(177, 127, 74, 0.8);
+					}
 				}
 				&.history-article-raul {
 					background-color: rgba(192, 152, 110, 0.8);
+					@media (min-width: 1200px) {
+						background-color: rgba(177, 127, 74, 0.8);
+					}
 				}
 				&.history-article-diego {
 					background-color: rgba(192, 152, 110, 0.7);
+					@media (min-width: 1200px) {
+						background-color: rgba(177, 127, 74, 0.8);
+					}
 				}
 			}
 		}

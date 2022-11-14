@@ -16,4 +16,7 @@
     margin-left: 5%;
     margin-top: 20px;
     display: inline-block;
+    @media (min-width: 1200px) {
+        padding: 7px 46px;
+    }
 }

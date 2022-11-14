@@ -14,10 +14,12 @@ body {
 			margin-top: 40px;
 			img {
 				width: 90px;
+				@media (min-width: 1200px) {
+					width:200px;
+					margin-left: 63px;
+				}
 			}
-			ul {
-				// display: none;
-			}
+			
 		}
 		section.social-media-header {
 		
@@ -46,6 +48,18 @@ body {
 						margin-bottom: 12px;
 					}
 				}
+			}
+		}
+
+		.desktop-menu  {
+			display: none;
+			@media (min-width:1200px) {
+				display: flex;
+				align-items: center;
+				justify-content: space-evenly;
+				font-weight: bold;
+				width: 100%;
+				font-size: 18px;
 			}
 		}
 	}
