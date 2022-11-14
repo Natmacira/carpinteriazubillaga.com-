@@ -55,6 +55,9 @@ body {
 					img {
 						width: 25px;
 						margin-bottom: 12px;
+						@media (min-width: 1200px) {
+							width: 36px;
+						}
 					}
 				}
 			}

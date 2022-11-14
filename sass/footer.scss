@@ -13,6 +13,9 @@ footer {
     ul {
         img {
             width: 20px;
+            @media (min-width: 768px) {
+                width: 36px;
+            }
         }
         li {
             font-size: 13px;
