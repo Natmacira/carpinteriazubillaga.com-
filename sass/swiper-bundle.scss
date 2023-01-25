@@ -42,7 +42,6 @@
     display: flex;
     transition-property: transform;
     box-sizing: content-box;
-  
 }
 .swiper-android .swiper-slide,
 .swiper-wrapper {
@@ -175,19 +174,19 @@
 }
 .swiper-button-next,
 .swiper-button-prev {
-	&:not(.unstyled-swiper-button) {
-		position: absolute;
-		top: 50%;
-		width: calc(var(--swiper-navigation-size) / 44 * 27);
-		height: var(--swiper-navigation-size);
-		margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
-		z-index: 10;
-		cursor: pointer;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		color: var(--swiper-navigation-color, var(--swiper-theme-color));
-	}
+    &:not(.unstyled-swiper-button) {
+        position: absolute;
+        top: 50%;
+        width: calc(var(--swiper-navigation-size) / 44 * 27);
+        height: var(--swiper-navigation-size);
+        margin-top: calc(0px - (var(--swiper-navigation-size) / 2));
+        z-index: 10;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--swiper-navigation-color, var(--swiper-theme-color));
+    }
 }
 .swiper-button-next.swiper-button-disabled,
 .swiper-button-prev.swiper-button-disabled {
@@ -197,17 +196,17 @@
 }
 .swiper-button-next,
 .swiper-button-prev {
-	&:not(.unstyled-swiper-button){
-		&:after {
-			font-family: swiper-icons;
-			font-size: var(--swiper-navigation-size);
-			text-transform: none !important;
-			letter-spacing: 0;
-			text-transform: none;
-			font-variant: initial;
-			line-height: 1;
-		}
-	}
+    &:not(.unstyled-swiper-button) {
+        &:after {
+            font-family: swiper-icons;
+            font-size: var(--swiper-navigation-size);
+            text-transform: none !important;
+            letter-spacing: 0;
+            text-transform: none;
+            font-variant: initial;
+            line-height: 1;
+        }
+    }
 }
 .swiper-button-prev,
 .swiper-rtl .swiper-button-next {
@@ -244,10 +243,14 @@
 .swiper-pagination-bullets.swiper-pagination-horizontal,
 .swiper-pagination-custom,
 .swiper-pagination-fraction {
-    bottom: 46%;
-    left: -39%;
     width: 100%;
     transform: rotate(90deg);
+    bottom: 52%;
+    left: -43%;
+    @media (min-width: 1200px) {
+        bottom: 46%;
+        left: -39%;
+    }
 }
 .swiper-pagination-bullets-dynamic {
     overflow: hidden;

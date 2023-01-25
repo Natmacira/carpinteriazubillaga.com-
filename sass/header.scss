@@ -28,21 +28,25 @@ body {
 			ul {
 				position: absolute;
 				right: 42px;
-				top: 35px;
+				display: flex;
+				align-items: center;
+				top: 337px;
+				justify-content: space-between;
 				@media (min-width: 400px) {
-					top: 64px;
+					top: 367px;
 				}
 				@media (min-width: 450px) {
-					top: 80px;
+					top: 387px;
 				}
 				@media (min-width: 500px) {
-					top: 100px;
+					top: 407px;
 				}
 				@media (min-width: 600px) {
-					top: 150px;
+					top: 427px;
 				}
 				@media (min-width: 1200px) {
 					top: 270px;
+					display: block;
 				}
 				@media (min-width: 1300px) {
 					top: 332px;
@@ -52,6 +56,10 @@ body {
 				}
 				li {
 					padding-bottom: 10px;
+					padding-left: 10px;
+					@media (min-width: 1200px) {
+						padding-left: 0;
+					}
 					img {
 						width: 25px;
 						margin-bottom: 12px;

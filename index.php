@@ -176,10 +176,9 @@ require_once 'header.php';
 			</figure>
 		</section>
 		<section class="video-section" id="video">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/-JAQbMNdgQ0"
-				title="YouTube video player" frameborder="0"
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-				allowfullscreen></iframe>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/KHe4EAMsJ-s" 
+			title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+			encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 		</section>
 		<section class="contact-section">
 			<p>HOLA, escribinos tu consulta</p>

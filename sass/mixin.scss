@@ -1,11 +1,11 @@
 @mixin title-h1() {
-    font-size: 23px;
-    @media (min-width: 400px) {
-        font-size: 28px;
-    }
-    @media (min-width: 550px) {
-        font-size: 40px;
-    }
+    // font-size: 23px;
+    // @media (min-width: 400px) {
+    //     font-size: 28px;
+    // }
+    // @media (min-width: 550px) {
+    //     font-size: 40px;
+    // }
 }
 
 @mixin orange-button() {
