@@ -34,15 +34,19 @@ body {
 	main {
 		section.swiper.generic-swiper {
 			position: relative;
-			// background-color: rgba(177,127,74,0.8);
+
 			div.content-div {
 				position: absolute;
-				left: 39px;
+				left: 10%;
 				width: 100%;
-				top: 28%;
-				// @media (min-width: 550px) {
-				// 	width: 240px;
-				// }
+				top: 250px;
+				max-width: calc(100% - 35px);
+
+				@media (min-width: 340px) {
+					max-width: none;
+					left: 13%;
+				}
+
 				@media (min-width: 1200px) {
 					width: 51%;
 					position: absolute;
