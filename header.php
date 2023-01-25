@@ -1,3 +1,34 @@
+<?php
+if (
+	isset($_POST['mail'])
+	&& (isset($_POST['nombre']))
+	&& (isset($_POST['consulta']))
+) {
+	$success = false;
+
+	if (
+		!empty(strip_tags($_POST['mail'])) &&
+		!empty(strip_tags($_POST['nombre'])) &&
+		!empty(strip_tags($_POST['consulta']))
+	) {
+		$to      = 'sumatealaexcelencia@gmail.com';
+		$subject = 'Mensaje dejado en Formulario de Contacto';
+		$message = 'Recibiste un mensaje en tu sitio web con la siguiente informaci&oacute;n:<br>
+		Nombre: ' . strip_tags($_POST['nombre']) . '<br>
+		Consulta: ' . strip_tags($_POST['consulta']) . '<br>
+		Mail: ' . strip_tags($_POST['mail']) . '<br>
+		IP: ' . $_SERVER['REMOTE_ADDR'];
+
+		$headers  = "MIME-Version: 1.0" . "\r\n";
+		$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+		$headers .= "From: <sumatealaexcelencia@gmail.com>" . "\r\n";
+
+		if (mail($to, $subject, $message, $headers)) {
+			$success = true;
+		}
+	}
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 

@@ -48,9 +48,7 @@ require_once 'header.php';
 					</picture>
 				</article>
 			</div>
-			<div class="swiper-pagination">
-
-			</div>
+			<div class="swiper-pagination"></div>
 
 		</section>
 		<section class="history-section" id="history">
@@ -193,4 +191,6 @@ require_once 'header.php';
 		</section>
 <?php
 
+require_once 'video.php';
+require_once 'contacto.php';
 require_once 'footer.php';
