@@ -245,20 +245,8 @@
 .swiper-pagination-fraction {
     width: 100%;
     transform: rotate(90deg);
-    bottom: 52%;
-    left: -43%;
-
-	/**
-	 * NAT:
-	 * estas líneas cambiaría acá para la home:
-		top: 350px;
-		left: -43%;
-	 */
-
-    @media (min-width: 1200px) {
-        bottom: 46%;
-        left: -39%;
-    }
+    bottom: 46%;
+    left: -39%;
 }
 .swiper-pagination-bullets-dynamic {
     overflow: hidden;

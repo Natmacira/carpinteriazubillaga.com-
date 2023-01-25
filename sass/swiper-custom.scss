@@ -1,0 +1,25 @@
+section.swiper article.swiper-slide.main-top{
+
+	.swiper-horizontal > .swiper-pagination-bullets,
+	.swiper-pagination-bullets.swiper-pagination-horizontal,
+	.swiper-pagination-custom,
+	.swiper-pagination-fraction {
+		width: 100%;
+		transform: rotate(90deg);
+		bottom: 52%;
+		left: -43%;
+	
+		/**
+		 * NAT:
+		 * estas líneas cambiaría acá para la home: viendo en este archivo de hacer los cambios del swiper
+			top: 350px;
+			left: -43%;
+		 */
+	
+		@media (min-width: 1200px) {
+			bottom: 46%;
+			left: -39%;
+		}
+	}
+	
+}
