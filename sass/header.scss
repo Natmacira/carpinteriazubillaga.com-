@@ -12,10 +12,11 @@ body {
 			padding: 10px 25px;
 			background-color: rgba(242, 242, 242, 0.3);
 			margin-top: 40px;
+			position: fixed;
+			width: 100%;
 			img {
-				width: 90px;
+				width: 200px;
 				@media (min-width: 1200px) {
-					width: 200px;
 					margin-left: 63px;
 				}
 			}
@@ -32,13 +33,13 @@ body {
 				justify-content: space-between;
 
 				right: calc(50% - 50px);
-				top: 360px;
-
+				top: 492px;
+				@media (min-width: 340px) {
+					top: 451px;
+				}
 
 				/*
-				@media (min-width: 400px) {
-					top: 367px;
-				}
+				
 				@media (min-width: 450px) {
 					top: 387px;
 				}
@@ -102,6 +103,15 @@ body {
 					top: 35px;
 					flex-direction: column;
 				}
+			}
+		}
+	}
+	&.page-scrolled {
+		header {
+			section.principal-header-section {
+				background-color: #f2f2f2;
+				top: -40px;
+				z-index: 5;
 			}
 		}
 	}

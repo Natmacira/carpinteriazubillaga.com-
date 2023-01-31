@@ -47,7 +47,7 @@ require_once 'header.php';
                     </div>
                     <picture>
                         <!-- Desktop -->
-                        <source media="(min-width:1200px)" srcset="img/buñada/desktop_buñada_carrusel2.jpg"
+                        <source media="(min-width:1200px)" srcset="img/buñada/deskatop_buñada_carrusel2.jpg"
                             alt="Logo Carpinteria Zubillaga">
                         <!-- Mobile  -->
                         <img src="img/buñada/mobile_buñada_carrusel2.jpg"

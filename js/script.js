@@ -13,4 +13,14 @@ document.addEventListener('DOMContentLoaded', function(){
 			prevEl: '.swiper-button-prev',
 		},
 	});
+
+	
+	// Scrolled Page class
+	window.addEventListener('scroll', function () {
+		if (window.scrollY > 0) {
+			document.body.classList.add('page-scrolled');
+		} else {
+			document.body.classList.remove('page-scrolled');
+		}
+	});
 });
