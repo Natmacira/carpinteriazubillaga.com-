@@ -25,11 +25,17 @@ body {
 
 			ul {
 				position: absolute;
-				right: 42px;
+				// right: 42px;
 				display: flex;
 				align-items: center;
-				top: 337px;
+				// top: 337px;
 				justify-content: space-between;
+
+				right: calc(50% - 50px);
+				top: 360px;
+
+
+				/*
 				@media (min-width: 400px) {
 					top: 367px;
 				}
@@ -52,6 +58,7 @@ body {
 				@media (min-width: 1400px) {
 					top: 385px;
 				}
+				*/
 				li {
 					padding-bottom: 10px;
 					padding-left: 10px;
