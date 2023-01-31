@@ -59,10 +59,12 @@ body {
 				h1 {
 					color: white;
 					margin: 0 auto;
-					text-shadow: 0px 3px 6px #0000005c;
+					text-shadow: 0px 3px 6px #000000d9;
 					@include title-h1;
 					font-size: 39px;
-					min-height: 160px;
+					min-height: 180px;
+					max-width: calc(85%);
+					margin-left: 0;
 
 					@media (min-width: 1200px) {
 						font-size: 50px;
@@ -78,7 +80,7 @@ body {
 					margin-left: 0;
 				}
 			}
-
+			/*
 			article.swiper-slide.history-slide {
 				div.content-div {
 					top: 41%;
@@ -103,7 +105,7 @@ body {
 						margin-top: 35px;
 					}
 				}
-			}
+			}*/
 		}
 
 		section.history-section {
