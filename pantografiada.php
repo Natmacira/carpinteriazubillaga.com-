@@ -1,4 +1,5 @@
 <?php
+$body_class = "puertas";
 require_once 'header.php';
 ?>
         <section class="door-presentation">

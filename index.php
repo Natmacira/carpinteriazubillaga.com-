@@ -1,4 +1,7 @@
+<!-- <body> -->
+
 <?php
+$body_class = "";
 require_once 'header.php';
 ?>
 <section class="swiper generic-swiper">
@@ -189,6 +192,9 @@ require_once 'header.php';
 				<button>enviar</button>
 			</form>
 		</section>
+<?php
+?>
+<!-- </body> -->
 <?php
 
 require_once 'video.php';
