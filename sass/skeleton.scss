@@ -145,6 +145,7 @@ body {
 				font-size: 22px;
 				margin-bottom: 50px;
 			}
+			
 
 			article {
 				@media (min-width: 1200px) {
@@ -204,6 +205,16 @@ body {
 					}
 				}
 			}
+		}
+		section#history:after {
+			display: block;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			height: 100px;
+			content: "";
+			background: #c1996ebd;
 		}
 		section.doors-section {
 			figure {
