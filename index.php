@@ -55,6 +55,7 @@ require_once 'header.php';
 
 		</section>
 		<section class="history-section" id="history">
+			<button id="slide">+</button>
 			<article class="history-article">
 				<h3>DESDE 1890</h3>
 				<h4>Ramón Zubillaga</h4>

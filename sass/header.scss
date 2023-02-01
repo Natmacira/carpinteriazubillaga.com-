@@ -26,16 +26,20 @@ body {
 
 			ul {
 				position: absolute;
-				// right: 42px;
 				display: flex;
 				align-items: center;
-				// top: 337px;
 				justify-content: space-between;
 
 				right: calc(50% - 50px);
 				top: 492px;
 				@media (min-width: 340px) {
 					top: 451px;
+				}
+
+				@media (min-width: 1200px) {
+					top: 400px;
+					display: block;
+					right: calc(50% - 600px);
 				}
 
 				/*
@@ -49,10 +53,7 @@ body {
 				@media (min-width: 600px) {
 					top: 427px;
 				}
-				@media (min-width: 1200px) {
-					top: 270px;
-					display: block;
-				}
+				
 				@media (min-width: 1300px) {
 					top: 332px;
 				}

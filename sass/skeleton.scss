@@ -114,6 +114,11 @@ body {
 			margin-top: -134px;
 			z-index: 1;
 			text-align: center;
+			padding: 0px;
+			width: auto;
+			border: 1px solid rgb(0, 0, 0);
+			height: 20px;
+			overflow: hidden;
 			@media (min-width: 1200px) {
 				display: flex;
 				align-items: center;
@@ -122,9 +127,23 @@ body {
 				padding: 270px 60px 80px;
 				margin-top: -140px;
 			}
+			button#slide {
+				color: orange;
+				position: absolute;
+				top: 204px;
+				right: 0;
+				left: 0;
+				width: 43px;
+				margin: auto;
+				background: none;
+				border: none;
+				font-size: 34px;
+				background: wheat;
+				border-radius: 44px;
+			}
 			h3 {
 				font-size: 22px;
-				margin-bottom: 0;
+				margin-bottom: 50px;
 			}
 
 			article {
@@ -160,7 +179,7 @@ body {
 
 				&.history-article {
 					background-color: rgba(177, 127, 74, 0.8);
-					padding-top: 200px;
+					padding-top: 140px;
 					@media (min-width: 1200px) {
 						background-color: transparent;
 						padding-top: 0;
