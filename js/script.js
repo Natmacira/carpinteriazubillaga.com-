@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	//height scroller 
 
 	var minheight = 350;
-	var maxheight = 1486;
+	var maxheight = 1409;
 	var time = 1000;
 	var timer = null;
 	var toggled = false;
@@ -56,5 +56,8 @@ document.addEventListener('DOMContentLoaded', function () {
 				document.getElementById('log').innerHTML = 'Current Height : <b>' + height + '</b><br /> Current Time : <b>' + time + '</b>';
 			}
 		}, 1);
+
+		controler.classList.add('controler-none');
+		history.classList.add('after-none');
 	};
 });

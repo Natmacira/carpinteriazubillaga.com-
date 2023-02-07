@@ -119,18 +119,19 @@ body {
 			border: 1px solid rgb(0, 0, 0);
 			height: 20px;
 			overflow: hidden;
+			border: none;
 			@media (min-width: 1200px) {
 				display: flex;
 				align-items: center;
 				position: relative;
 				background-color: rgba(177, 127, 74, 0.8);
-				padding: 270px 60px 80px;
+				padding: 409px 60px 0;
 				margin-top: -140px;
 			}
 			button#slide {
-				color: orange;
+				color: $theme-orange;
 				position: absolute;
-				top: 204px;
+				top: 266px;
 				right: 0;
 				left: 0;
 				width: 43px;
@@ -140,14 +141,18 @@ body {
 				font-size: 34px;
 				background: wheat;
 				border-radius: 44px;
+				z-index: 10;
+				&.controler-none {
+					display: none;
+				}
 			}
 			h3 {
 				font-size: 22px;
-				margin-bottom: 50px;
+				margin-bottom: -26px;
 			}
-			
 
 			article {
+				// min-height: 278.5px;
 				@media (min-width: 1200px) {
 					h3 {
 						position: absolute;
@@ -214,8 +219,25 @@ body {
 			width: 100%;
 			height: 100px;
 			content: "";
-			background: #c1996ebd;
+			background: #c1996e;
+			-webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)),
+				linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+			-webkit-mask-size: 100% 104%;
+			-webkit-mask-repeat: no-repeat;
+			-webkit-mask-position: bottom;
 		}
+
+		section#history {
+			&.after-none {
+				&::after {
+					display: none;
+				}
+				// @media (min-width: 1200px) {
+				// 	height: 644px !important;
+				// }
+			}
+		}
+
 		section.doors-section {
 			figure {
 				position: relative;
