@@ -1,5 +1,4 @@
 <?php
-$body_class = "puertas";
 require_once 'header.php';
 ?>
         <section class="door-presentation">
@@ -12,7 +11,7 @@ require_once 'header.php';
             </picture>
             <h1>Pantografiada</h1>
         </section>
-        <section class="history-section" id="history">
+        <section class="history-section">
             <article class="history-article">
 
                 <p>Eran épocas de herramientas manuales y nobles maderas macizas (roble eslavonia, cedro paraguayo) que

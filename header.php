@@ -66,7 +66,7 @@ if (
 	<meta property="og:url" content="https://nodo.org.ar/" /> -->
 </head>
 
-<body <?php if ( basename( $_SERVER['SCRIPT_FILENAME'] ) !== "index.php" ) { echo 'class="puerta"'; } ?> class="<?php echo $body_class; ?>">
+<body <?php if ( basename( $_SERVER['SCRIPT_FILENAME'] ) !== "index.php" ) { echo 'class="puerta"'; } ?>>
 <header>
 		<section class="principal-header-section">
 			<a href="index.php">

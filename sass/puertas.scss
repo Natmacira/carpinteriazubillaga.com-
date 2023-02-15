@@ -26,6 +26,7 @@ body.puerta {
             z-index: 1;
             text-align: center;
             margin-top: -6%;
+            height: auto;
 
             @media (min-width: 1200px) {
                 padding-top: 6%;
@@ -57,8 +58,17 @@ body.puerta {
                 }
             }
         }
+
+        section#history:after {
+            display: none;
+        }
         section.swiper.generic-swiper {
             max-width: 500px;
+
+            @media (min-width: 1200px) {
+                max-width: 1000px;
+            }
+            
             position: relative;
 
             div.content-div {

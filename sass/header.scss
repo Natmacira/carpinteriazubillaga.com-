@@ -100,9 +100,19 @@ body {
 		header {
 			section.social-media-header {
 				ul {
-					right: 42px;
-					top: 35px;
+					right: 20px;
+					top: 141px;
 					flex-direction: column;
+					li {
+						padding-bottom: 0;
+					}
+				}
+				@media (min-width: 1200px) {
+					ul {
+						right: 42px;
+						top: 490px;
+						flex-direction: column;
+					}
 				}
 			}
 		}

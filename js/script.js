@@ -1,9 +1,10 @@
 document.addEventListener('DOMContentLoaded', function () {
-
+	let slidesPerPage = document.body.classList.contains('puerta') ? 2 : 1;
+	slidesPerPage = screen.width < 1200 ? 1 : slidesPerPage;
 	let welcomeSwiper = new Swiper('.generic-swiper', {
 		spaceBetween: 30,
 		loop: false,
-
+		slidesPerView: slidesPerPage,
 		pagination: {
 			el: ".swiper-pagination",
 			clickable: true
@@ -34,31 +35,31 @@ document.addEventListener('DOMContentLoaded', function () {
 
 	var controler = document.getElementById('slide');
 	var history = document.getElementById('history');
-	history.style.height = minheight + 'px';
-	controler.onclick = function () {
-		clearInterval(timer);
-		var instanceheight = parseInt(history.style.height);
-		var init = (new Date()).getTime();
-		var height = (toggled = !toggled) ? maxheight : minheight;
 
-		var disp = height - parseInt(history.style.height);
-		timer = setInterval(function () {
-			var instance = (new Date()).getTime() - init;
-			if (instance < time) {
-				var pos = Math.floor(disp * instance / time);
-				result = instanceheight + pos;
-				history.style.height = result + 'px';
-				// history.style.height = auto;
-				document.getElementById('log').innerHTML = 'Current Height : <b>' + result + '</b><br /> Current Time : <b>' + instance + '</b>';
-			} else {
-				history.style.height = 'auto'; //safety side ^^
-				clearInterval(timer);
-				controler.value = toggled ? ' Slide Up ' : ' Slide Down ';
-				document.getElementById('log').innerHTML = 'Current Height : <b>' + height + '</b><br /> Current Time : <b>' + time + '</b>';
-			}
-		}, 1);
+	if (history) {
+		history.style.height = minheight + 'px';
+		controler.onclick = function () {
+			clearInterval(timer);
+			var instanceheight = parseInt(history.style.height);
+			var init = (new Date()).getTime();
+			var height = (toggled = !toggled) ? maxheight : minheight;
 
-		controler.classList.add('controler-none');
-		history.classList.add('after-none');
+			var disp = height - parseInt(history.style.height);
+			timer = setInterval(function () {
+				var instance = (new Date()).getTime() - init;
+				if (instance < time) {
+					var pos = Math.floor(disp * instance / time);
+					result = instanceheight + pos;
+					history.style.height = result + 'px';
+				} else {
+					history.style.height = 'auto'; //safety side ^^
+					clearInterval(timer);
+					controler.value = toggled ? ' Slide Up ' : ' Slide Down ';
+				}
+			}, 1);
+
+			controler.classList.add('controler-none');
+			history.classList.add('after-none');
+		}
 	};
 });
