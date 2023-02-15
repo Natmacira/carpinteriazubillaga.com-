@@ -121,7 +121,7 @@ body {
 			overflow: hidden;
 			border: none;
 			@media (min-width: 1200px) {
-				height: auto !important;
+				height: auto;
 				display: flex;
 				align-items: flex-start;
 				position: relative;
@@ -206,7 +206,10 @@ body {
 				}
 				&.history-article-diego {
 					background-color: rgba(192, 152, 110, 0.7);
+					padding-bottom: 30px;
+
 					@media (min-width: 1200px) {
+						padding-bottom: 0;
 						background-color: transparent;
 					}
 				}

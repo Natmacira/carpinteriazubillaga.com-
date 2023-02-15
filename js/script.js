@@ -24,11 +24,11 @@ document.addEventListener('DOMContentLoaded', function () {
 		}
 	});
 
-	//height scroller 
+	//height scroller
 
-	var minheight = 350;
-	var maxheight = 1409;
-	var time = 1000;
+	var minheight = window.innerWidth < 1200 ? 350 : 450;
+	var maxheight = window.innerWidth < 1200 ? 1409 : 520;
+	var time = window.innerWidth < 1200 ? 1000 : 500;
 	var timer = null;
 	var toggled = false;
 
