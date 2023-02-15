@@ -48,9 +48,10 @@ document.addEventListener('DOMContentLoaded', function () {
 				var pos = Math.floor(disp * instance / time);
 				result = instanceheight + pos;
 				history.style.height = result + 'px';
+				// history.style.height = auto;
 				document.getElementById('log').innerHTML = 'Current Height : <b>' + result + '</b><br /> Current Time : <b>' + instance + '</b>';
 			} else {
-				history.style.height = height + 'px'; //safety side ^^
+				history.style.height = 'auto'; //safety side ^^
 				clearInterval(timer);
 				controler.value = toggled ? ' Slide Up ' : ' Slide Down ';
 				document.getElementById('log').innerHTML = 'Current Height : <b>' + height + '</b><br /> Current Time : <b>' + time + '</b>';
