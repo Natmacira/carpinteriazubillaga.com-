@@ -84,16 +84,16 @@ if (
 				<span>
 					<ul class="sub-menu ">
 						<li>
-							<a href="index.php#history" title="about">DESDE 1890</a></figcaption>
+							<a href="index.php#history">DESDE 1890</a></figcaption>
 						</li>
 						<li>
-							<a href="index.php#nobles" title="skills">PUERTAS NOBLES</a></figcaption>
+							<a href="index.php#nobles">PUERTAS NOBLES</a></figcaption>
 						</li>
 						<li>
-							<a href="#video" title="jobs">VIDEO</a></figcaption>
+							<a href="#video">VIDEO</a></figcaption>
 						</li>
 						<li>
-							<a href="#contacto" title="contact">CONTACTO</a></figcaption>
+							<a href="#contacto">CONTACTO</a></figcaption>
 						</li>
 					</ul>
 				</span>
@@ -102,24 +102,24 @@ if (
 
 			<ul class="desktop-menu">
 				<li>
-					<a href="index.php#history" title="about">DESDE 1890</a></figcaption>
+					<a href="index.php#history">DESDE 1890</a></figcaption>
 				</li>
 				<li>
-					<a href="index.php#nobles" title="skills">PUERTAS NOBLES</a></figcaption>
+					<a href="index.php#nobles">PUERTAS NOBLES</a></figcaption>
 				</li>
 				<li>
-					<a href="#video" title="jobs">VIDEO</a></figcaption>
+					<a href="#video">VIDEO</a></figcaption>
 				</li>
 				<li>
-					<a href="#contacto" title="contact">CONTACTO</a></figcaption>
+					<a href="#contacto">CONTACTO</a></figcaption>
 				</li>
 			</ul>
 		</section>
 		<section class="social-media-header">
 			<ul>
-				<li><a href=""><img src="img/desktop/ig_desktop.png" alt="Instagram logo link"></a></figcaption>
+				<li><a href="https://instagram.com/zubillaga_puertas?igshid=YmMyMTA2M2Y=" target="_blank"><img src="img/desktop/ig_desktop.png" alt="Instagram logo link"></a></figcaption>
 				</li>
-				<li><a href=""><img src="img/desktop/youtube_desktop.png" alt="Youtube logo link"></a></figcaption>
+				<li><a href="https://www.youtube.com/watch?v=KHe4EAMsJ-s" target="_blank"><img src="img/desktop/youtube_desktop.png" alt="Youtube logo link"></a></figcaption>
 				</li>
 			</ul>
 		</section>

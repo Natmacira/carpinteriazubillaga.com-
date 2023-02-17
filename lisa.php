@@ -46,7 +46,7 @@ require_once 'header.php';
                     </div>
                     <picture>
                         <!-- Desktop -->
-                        <source media="(min-width:1200px)" srcset="img/lisa/desktop_lisa_carrusel2.jpg"
+                        <source media="(min-width:1200px)" srcset="img/lisa/desktop_lisa_carrusel2-02.jpg"
                             alt="Logo Carpinteria Zubillaga">
                         <!-- Mobile  -->
                         <img src="img/lisa/mobile_lisa_carrusel2.jpg"

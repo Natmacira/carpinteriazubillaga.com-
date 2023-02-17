@@ -317,8 +317,9 @@ body {
 			background-image: url("img/home desktop/contacto.jpg");
 			padding-bottom: 30px;
 			background-size: cover;
-			margin-bottom: 20px;
-
+			margin-bottom: -1px;
+			z-index: 0;
+			position: relative;
 			p {
 				font-size: 22px;
 				font-weight: bold;

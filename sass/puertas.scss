@@ -25,11 +25,12 @@ body.puerta {
             margin-top: -52px;
             z-index: 1;
             text-align: center;
-            margin-top: -6%;
+            margin-top: -57px;
             height: auto;
 
-            @media (min-width: 1200px) {
+            @media (min-width: 1000px) {
                 padding-top: 6%;
+                margin-top: -85px;
             }
 
             article {
@@ -54,7 +55,11 @@ body.puerta {
                 }
 
                 &.history-article {
-                    padding-top: 40px;
+                    padding-top: 50px;
+
+                    @media (min-width: 1000px) {
+                        padding-top:0;
+                    }
                 }
             }
         }
@@ -68,7 +73,7 @@ body.puerta {
             @media (min-width: 1200px) {
                 max-width: 1000px;
             }
-            
+
             position: relative;
 
             div.content-div {
@@ -122,6 +127,7 @@ body.puerta {
                 left: -27%;
                 width: 100%;
                 transform: rotate(0);
+                top: auto;
             }
             .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
             .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
