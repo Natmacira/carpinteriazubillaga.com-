@@ -22,13 +22,22 @@ body {
 	.swiper-pagination-bullets.swiper-pagination-horizontal,
 	.swiper-pagination-custom,
 	.swiper-pagination-fraction {
-		width: 10px;
+		width: 90px;
 		height: auto;
-		left: calc(10% - 20px);
-		top: 320px;
-		@media (min-width: 1200px) {
-			top: 416px;
-		}
+		left: calc(10% - 15px);
+		top: 521px;
+		// @media (min-width: 350px) {
+		// 	left: calc(10% - -5px);
+		// 	top: 490px;
+		// }
+		// @media (min-width: 768px) {
+		// 	left: calc(10% - -19px);
+		// 	top: 476px;
+		// }
+		// @media (min-width: 1200px) {
+		// 	top: 642px;
+		// 	left: calc(10% - -270px);
+		// }
 	}
 
 	.swiper-pagination-bullet {

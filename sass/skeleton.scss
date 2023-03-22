@@ -80,6 +80,15 @@ body {
 					margin-left: 0;
 				}
 			}
+
+			img.arrow {
+				position: absolute;
+				bottom: 19px;
+				margin: auto;
+				left: -16px;
+				right: 0;
+				z-index: 2;
+			}
 			/*
 			article.swiper-slide.history-slide {
 				div.content-div {
@@ -129,6 +138,9 @@ body {
 				padding: 228px 60px 45px;
 				// margin-top: -140px;
 			}
+			img {
+				width: 20px;
+			}
 			button#slide {
 				color: $theme-orange;
 				position: absolute;
@@ -150,6 +162,7 @@ body {
 			h3 {
 				font-size: 22px;
 				margin-bottom: -26px;
+				text-transform: uppercase;
 			}
 
 			article {
