@@ -2,22 +2,28 @@
 require_once 'header.php';
 ?>
 <section class="door-presentation">
+
     <picture>
         <!-- Desktop -->
-        <source media="(min-width:768px)" srcset="img/enchapada/desktop_enchapada_portada.png" alt="Logo Carpinteria Zubillaga">
+        <source media="(min-width:768px)" srcset="img/desktop/desktop_enchapada_portada.png" alt="Logo Carpinteria Zubillaga">
         <!-- Mobile  -->
-        <img src="img/enchapada/mobile_portada.png" alt="">
+
+        <source media="(max-width:769px)" srcset="img/mobile/mobile_enchapada_portada.png" alt="Logo Carpinteria Zubillaga">
+        <img src="" alt="">
     </picture>
-    <h1>Enchapadas</h1>
+    <h1>Puertas Enchapadas</h1>
 </section>
 <section class="history-section">
     <article class="history-article">
-
-        <p>Eran épocas de herramientas manuales y nobles maderas macizas (roble eslavonia, cedro paraguayo) que
-            se desembarcaban en el antiguo puerto de Mar del Plata y se transportaban en carretones hasta el
-            taller. Fue en el año 1891 cuando Ramón Zubillaga instaló su taller de carpintería en La Rioja al
-            2100 (hoy centro), Mar del Plata. En aquel primer edificio comenzó a elaborar en forma artesanal,
-            carpintería para importantísimos y típicos chalets marplatenses.</p>
+        <p><strong> Trabajo hecho a medida.</strong>
+            <br>
+            Partimos de premarcos definidos en la obra, que se preparan según dimensiones de muros y vanos especificados. Sus medidas determinarán el ancho y la altura que tendrán cada marco y hoja, así como el espesor del marco, que podrá abarcar de filo a filo de muro.
+        </p>
+        <strong>Lisas</strong>
+        <ul>
+            <li>Sus caras son de mdf de espesor 5,5 mm. revestidas con chapas reconstituidas</li>
+            <li>El lustre, con poliuretano semimate transparente.</li>
+        </ul>
     </article>
 </section>
 <section class="swiper generic-swiper">

@@ -14,9 +14,11 @@ require_once 'header.php';
 			</div>
 			<picture>
 				<!-- Desktop -->
-				<source media="(min-width:768px)" srcset="img/desktop/home_desktop.png" alt="Logo Carpinteria Zubillaga">
+				<source media="(min-width:768px)" srcset="img/desktop/desktop_home.png" alt="Logo Carpinteria Zubillaga">
 				<!-- Mobile  -->
-				<img src="img/mobile/home_mobile.png" alt="">
+
+				<source media="(max-width:769px)" srcset="img/mobile/home_mobile.png" alt="Logo Carpinteria Zubillaga">
+				<img src="" alt="">
 			</picture>
 		</article>
 
@@ -25,13 +27,16 @@ require_once 'header.php';
 			<div class="content-div">
 				<h1>+ 130 años <br><span> EN MAR DEL PLATA</span></h1>
 				<a href="https://www.youtube.com/watch?v=KHe4EAMsJ-s&t=11s" target="_blank">+ info</a></figcaption>
-				<img src="img/desktop/trinagulo_desktop.png" alt="">
+
 			</div>
+
 			<picture>
 				<!-- Desktop -->
-				<source media="(min-width:768px)" srcset="img/desktop_home_2.png" alt="Logo Carpinteria Zubillaga">
+				<source media="(min-width:768px)" srcset="img/desktop/desktop_home_2.png" alt="Logo Carpinteria Zubillaga">
 				<!-- Mobile  -->
-				<img src="img/mobile_home_2.png" alt="">
+
+				<source media="(max-width:769px)" srcset="img/mobile/mobile_home_2.png" alt="Logo Carpinteria Zubillaga">
+				<img src="" alt="">
 			</picture>
 		</article>
 
@@ -40,25 +45,26 @@ require_once 'header.php';
 			<div class="content-div">
 				<h1>Conócenos <br> un poco más</h1>
 				<a href="#video">+ info</a></figcaption>
-				<img src="img/desktop/trinagulo_desktop.png" alt="">
+
 			</div>
 			<picture>
 				<!-- Desktop -->
-				<source media="(min-width:768px)" srcset="img/desktop_home_3.png" alt="Logo Carpinteria Zubillaga">
+				<source media="(min-width:768px)" srcset="img/desktop/desktop_home_3.png" alt="Logo Carpinteria Zubillaga">
 				<!-- Mobile  -->
-				<img src="img/mobile_home_3.png" alt="">
+				<source media="(max-width:769px)" srcset="img/mobile/mobile_home_3.png" alt="Logo Carpinteria Zubillaga">
+
+				<img src="" alt="">
 			</picture>
 		</article>
 	</div>
 	<div class="swiper-pagination"></div>
-	<img src="img/desktop/trinagulo_desktop.png" alt="" class="arrow">
 
 </section>
 <section class="history-section" id="history">
 
 	<button id="slide">+</button>
 	<article class="history-article">
-		<h3>Las puertas de madera tienen apellido</h3>
+		<h3>Las puertas de madera <br> tienen apellido</h3>
 		<h4>1890-1920 – Ramón Zubillaga</h4>
 		<p>Eran épocas de <strong> herramientas manuales y nobles maderas macizas</strong>
 			(roble eslavonia, cedro paraguayo) que se desembarcaban en el

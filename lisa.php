@@ -1,63 +1,65 @@
 <?php
 require_once 'header.php';
 ?>
-        <section class="door-presentation">
+<section class="door-presentation">
+    <picture>
+        <!-- Desktop -->
+        <source media="(min-width:768px)" srcset="img/desktop/desktop_lisa_portada.png" alt="Logo Carpinteria Zubillaga">
+        <!-- Mobile  -->
+
+        <source media="(max-width:769px)" srcset="img/mobile/mobile_portada.png" alt="Logo Carpinteria Zubillaga">
+        <img src="" alt="">
+    </picture>
+    <h1>Puertas Lisas</h1>
+</section>
+<section class="history-section">
+    <article class="history-article">
+
+        <p><strong> Trabajo hecho a medida.</strong>
+        <br>
+            Partimos de premarcos definidos en la obra, que se preparan según dimensiones de muros y vanos especificados. Sus medidas determinarán el ancho y la altura que tendrán cada marco y hoja, así como el espesor del marco, que podrá abarcar de filo a filo de muro.
+        </p>
+        <strong>Lisas</strong>
+        <ul>
+            <li>Sus caras son de mdf de espesor 5,5 mm.</li>
+            <li>El laqueado, con poliuretano semimate color a elección.</li>
+        </ul>
+    </article>
+</section>
+<section class="swiper generic-swiper">
+    <div class="swiper-wrapper">
+        <!-- SLIDE 1 -->
+        <article class="swiper-slide">
+            <div class="content-div">
+                <a href="#contacto">consulta</a></figcaption>
+                <h4>Detalles</h4>
+            </div>
             <picture>
                 <!-- Desktop -->
-                <source media="(min-width:768px)" srcset="img/lisa/desktop_portada.png"
-                    alt="Logo Carpinteria Zubillaga">
+                <source media="(min-width:1200px)" srcset="img/lisa/desktop_lisa_carrusel1.jpg" alt="Logo Carpinteria Zubillaga">
                 <!-- Mobile  -->
-                <img src="img/lisa/mobile_portada.png" alt="">
+                <img src="img/lisa/mobile_lisa_carrusel1.jpg" alt="test">
             </picture>
-            <h1>Lisa</h1>
-        </section>
-        <section class="history-section" >
-            <article class="history-article">
+        </article>
 
-                <p>Eran épocas de herramientas manuales y nobles maderas macizas (roble eslavonia, cedro paraguayo) que
-                    se desembarcaban en el antiguo puerto de Mar del Plata y se transportaban en carretones hasta el
-                    taller. Fue en el año 1891 cuando Ramón Zubillaga instaló su taller de carpintería en La Rioja al
-                    2100 (hoy centro), Mar del Plata. En aquel primer edificio comenzó a elaborar en forma artesanal,
-                    carpintería para importantísimos y típicos chalets marplatenses.</p>
-            </article>
-        </section>
-        <section class="swiper generic-swiper">
-            <div class="swiper-wrapper">
-                <!-- SLIDE 1 -->
-                <article class="swiper-slide">
-                    <div class="content-div">
-                        <a href="#contacto">consulta</a></figcaption>
-                        <h4>Detalles</h4>
-                    </div>
-                    <picture>
-                        <!-- Desktop -->
-                        <source media="(min-width:1200px)" srcset="img/lisa/desktop_lisa_carrusel1.jpg"
-                            alt="Logo Carpinteria Zubillaga">
-                        <!-- Mobile  -->
-                        <img src="img/lisa/mobile_lisa_carrusel1.jpg" alt="test">
-                    </picture>
-                </article>
-
-                <!-- SLIDE 2 -->
-                <article class="swiper-slide">
-                    <div class="content-div">
-                        <a href="#contacto">consulta</a></figcaption>
-                        <h4>Corredisas</h4>
-                    </div>
-                    <picture>
-                        <!-- Desktop -->
-                        <source media="(min-width:1200px)" srcset="img/lisa/desktop_lisa_carrusel2-02.jpg"
-                            alt="Logo Carpinteria Zubillaga">
-                        <!-- Mobile  -->
-                        <img src="img/lisa/mobile_lisa_carrusel2.jpg"
-                            alt="Foto de una parte de una puerta enchapada">
-                    </picture>
-                </article>
-
+        <!-- SLIDE 2 -->
+        <article class="swiper-slide">
+            <div class="content-div">
+                <a href="#contacto">consulta</a></figcaption>
+                <h4>Corredisas</h4>
             </div>
-            <div class="swiper-pagination"></div>
+            <picture>
+                <!-- Desktop -->
+                <source media="(min-width:1200px)" srcset="img/lisa/desktop_lisa_carrusel2-02.jpg" alt="Logo Carpinteria Zubillaga">
+                <!-- Mobile  -->
+                <img src="img/lisa/mobile_lisa_carrusel2.jpg" alt="Foto de una parte de una puerta enchapada">
+            </picture>
+        </article>
 
-        </section>
+    </div>
+    <div class="swiper-pagination"></div>
+
+</section>
 
 <?php
 require_once 'video.php';
