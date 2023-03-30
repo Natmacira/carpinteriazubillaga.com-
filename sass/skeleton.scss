@@ -427,6 +427,20 @@ body {
 				padding: 10px 44px;
 				font-size: 20px;
 			}
+
+			/* JS FORM */
+
+			#respuestaForm {
+				display: none;
+			}
+
+			#form.remove-form {
+				display: none;
+			}
+
+			#respuestaForm.gracias {
+				display: block;
+			}
 		}
 	}
 }

@@ -11,7 +11,7 @@ if (
 		!empty(strip_tags($_POST['nombre'])) &&
 		!empty(strip_tags($_POST['consulta']))
 	) {
-		$to      = 'sumatealaexcelencia@gmail.com';
+		$to      = 'cintiaventrici@gmail';
 		$subject = 'Mensaje dejado en Formulario de Contacto';
 		$message = 'Recibiste un mensaje en tu sitio web con la siguiente informaci&oacute;n:<br>
 		Nombre: ' . strip_tags($_POST['nombre']) . '<br>
@@ -21,7 +21,7 @@ if (
 
 		$headers  = "MIME-Version: 1.0" . "\r\n";
 		$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-		$headers .= "From: <sumatealaexcelencia@gmail.com>" . "\r\n";
+		$headers .= "From: <noreply@zubillagapuertasnobles.com>" . "\r\n";
 
 		if (mail($to, $subject, $message, $headers)) {
 			$success = true;
@@ -41,7 +41,6 @@ if (
 	<script src="js/burger-menu.js"></script>
 	<script src="js/swiper-bundle.min.js"></script>
 	<script src="js/script.js"></script>
-	<link rel="shortcut icon" href="assets/images/favicon.ico">
 	<link rel="apple-touch-icon" sizes="57x57" href="img/apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="img/apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="img/apple-icon-72x72.png">
@@ -57,7 +56,7 @@ if (
 	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
 	<link rel="manifest" href="img/manifest.json">
 	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://zubillagapuertasnobles.com/" />
