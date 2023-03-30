@@ -26,18 +26,17 @@ body {
 		height: auto;
 		left: calc(10% - 15px);
 		top: 521px;
-		// @media (min-width: 350px) {
-		// 	left: calc(10% - -5px);
-		// 	top: 490px;
-		// }
-		// @media (min-width: 768px) {
-		// 	left: calc(10% - -19px);
-		// 	top: 476px;
-		// }
-		// @media (min-width: 1200px) {
-		// 	top: 642px;
-		// 	left: calc(10% - -270px);
-		// }
+		@media (min-width: 340px) {
+			left: calc(10% - 4px);
+			top: 484px;
+		}
+		@media (min-width: 480px) {
+			left: calc(10% - -24px);
+		}
+		@media (min-width: 1200px) {
+			top: 650px;
+			left: calc(10% - -238px);
+		}
 	}
 
 	.swiper-pagination-bullet {

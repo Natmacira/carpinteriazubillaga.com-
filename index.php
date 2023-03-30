@@ -10,7 +10,7 @@ require_once 'header.php';
 		<article class="swiper-slide main-top">
 			<div class="content-div">
 				<h1>Mucho más que <br> una puerta, <br><span> sumate a la <br> excelencia</span></h1>
-				<a href="">+ info</a></figcaption>
+				<a href="index.php#nobles">+ info</a></figcaption>
 			</div>
 			<picture>
 				<!-- Desktop -->
@@ -26,7 +26,7 @@ require_once 'header.php';
 		<article class="swiper-slide history-slide">
 			<div class="content-div">
 				<h1>+ 130 años <br><span> EN MAR DEL PLATA</span></h1>
-				<a href="https://www.youtube.com/watch?v=KHe4EAMsJ-s&t=11s" target="_blank">+ info</a></figcaption>
+				<a href="#contacto" >+ info</a></figcaption>
 
 			</div>
 
@@ -44,7 +44,7 @@ require_once 'header.php';
 		<article class="swiper-slide know-us-more">
 			<div class="content-div">
 				<h1>Conócenos <br> un poco más</h1>
-				<a href="#video">+ info</a></figcaption>
+				<a href="https://www.youtube.com/watch?v=KHe4EAMsJ-s&t=11s" target="_blank">+ info</a></figcaption>
 
 			</div>
 			<picture>
