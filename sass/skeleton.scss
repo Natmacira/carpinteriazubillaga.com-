@@ -32,6 +32,9 @@ body {
 	margin-top: -23px;
 	font-family: "Source Sans Pro";
 	main {
+		.generic-swiper img {
+			width: 100%;
+		}
 		section.swiper.generic-swiper {
 			position: relative;
 
