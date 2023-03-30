@@ -12,15 +12,21 @@ require_once 'header.php';
     </picture>
 
     <h1>Puertas con
-       <br> Moldura aplicada</h1>
+        <br> Moldura aplicada
+    </h1>
 </section>
 <section class="history-section">
     <article class="history-article">
-        <p>Eran épocas de herramientas manuales y nobles maderas macizas (roble eslavonia, cedro paraguayo) que
-            se desembarcaban en el antiguo puerto de Mar del Plata y se transportaban en carretones hasta el
-            taller. Fue en el año 1891 cuando Ramón Zubillaga instaló su taller de carpintería en La Rioja al
-            2100 (hoy centro), Mar del Plata. En aquel primer edificio comenzó a elaborar en forma artesanal,
-            carpintería para importantísimos y típicos chalets marplatenses.</p>
+        <p><strong> Trabajo hecho a medida.</strong>
+            <br>
+            Partimos de premarcos definidos en la obra, que se preparan según dimensiones de muros y vanos especificados. Sus medidas determinarán el ancho y la altura que tendrán cada marco y hoja, así como el espesor del marco, que podrá abarcar de filo a filo de muro.
+        </p>
+        <p> <strong>Buñada</strong></p>
+        <ul>
+            <li>Sus caras son de mdf de espesor 5,5 mm. con ranuras realizadas en centro de control numérico de alta precisión.</li>
+            <li>Existe una amplia variedad de diseños para elegir.</li>
+            <li>El laqueado, con poliuretano semimate color a elección.</li>
+        </ul>
     </article>
 </section>
 <section class="swiper generic-swiper">

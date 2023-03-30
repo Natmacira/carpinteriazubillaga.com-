@@ -19,7 +19,7 @@ require_once 'header.php';
             <br>
             Partimos de premarcos definidos en la obra, que se preparan según dimensiones de muros y vanos especificados. Sus medidas determinarán el ancho y la altura que tendrán cada marco y hoja, así como el espesor del marco, que podrá abarcar de filo a filo de muro.
         </p>
-        <strong>Lisas</strong>
+        <p> <strong>Enchapada</strong></p>
         <ul>
             <li>Sus caras son de mdf de espesor 5,5 mm. revestidas con chapas reconstituidas</li>
             <li>El lustre, con poliuretano semimate transparente.</li>

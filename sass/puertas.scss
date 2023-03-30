@@ -8,7 +8,7 @@ body.puerta {
             z-index: 2;
             h1 {
                 position: absolute;
-                top: 65%;
+                top: 60%;
                 right: 44px;
                 color: white;
                 font-size: 30px;
@@ -55,10 +55,18 @@ body.puerta {
                 }
 
                 &.history-article {
-                    padding-top: 50px;
-
-                    @media (min-width: 1000px) {
-                        padding-top:0;
+                    padding-top: 70px;
+                    padding-bottom: 40px;
+                    ul {
+                        padding-left: 40px;
+                        text-align: left;
+                        list-style-type: disc;
+                        @media (min-width: 1200px) {
+                            margin: 0 auto;
+                            display: block;
+                            width: 899px;
+                            font-size: 18px;
+                        }
                     }
                 }
             }
