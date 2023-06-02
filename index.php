@@ -9,15 +9,16 @@ require_once 'header.php';
 		<!-- SLIDE 1 -->
 		<article class="swiper-slide main-top">
 			<div class="content-div">
-				<h1>Mucho más que <br> una puerta, <br><span> sumate a la <br> excelencia</span></h1>
+			 
+				<h1>Puertas nobles<br><span> EN LUGARES <br> EMBLEMATICOS</span></h1>
 				<a href="index.php#nobles">+ info</a></figcaption>
 			</div>
 			<picture>
 				<!-- Desktop -->
-				<source media="(min-width:768px)" srcset="img/desktop/desktop_home.png" alt="Logo Carpinteria Zubillaga">
+				<source media="(min-width:768px)" srcset="img/desktop/desktop_home.jpg" alt="Logo Carpinteria Zubillaga">
 				<!-- Mobile  -->
 
-				<source media="(max-width:769px)" srcset="img/mobile/home_mobile.png" alt="Logo Carpinteria Zubillaga">
+				<source media="(max-width:769px)" srcset="img/mobile/home_mobile.jpg" alt="Logo Carpinteria Zubillaga">
 				<img src="" alt="">
 			</picture>
 		</article>
