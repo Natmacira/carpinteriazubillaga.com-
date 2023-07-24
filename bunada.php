@@ -5,10 +5,10 @@ require_once 'header.php';
 
     <picture>
         <!-- Desktop -->
-        <source media="(min-width:768px)" srcset="img/desktop/desktop_buñada_portada.png" alt="Logo Carpinteria Zubillaga">
+        <source media="(min-width:768px)" srcset="img/desktop/desktop_bunada_portada.png" alt="Logo Carpinteria Zubillaga">
         <!-- Mobile  -->
 
-        <source media="(max-width:769px)" srcset="img/mobile/mobile_buñada_portada.png" alt="Logo Carpinteria Zubillaga">
+        <source media="(max-width:769px)" srcset="img/mobile/mobile_bunada_portada.png" alt="Logo Carpinteria Zubillaga">
         <img src="" alt="">
     </picture>
     <h1>Puertas Buñadas</h1>
@@ -38,9 +38,9 @@ require_once 'header.php';
             </div>
             <picture>
                 <!-- Desktop -->
-                <source media="(min-width:1200px)" srcset="img/buñada/desktop_buñada_carrusel1.jpg" alt="Logo Carpinteria Zubillaga">
+                <source media="(min-width:1200px)" srcset="img/bunada/desktop_bunada_carrusel1.jpg" alt="Logo Carpinteria Zubillaga">
                 <!-- Mobile  -->
-                <img src="img/buñada/mobile_buñada_carrusel1_Mesa de trabajo 1.jpg" alt="test">
+                <img src="img/bunada/mobile_bunada_carrusel1_Mesa de trabajo 1.jpg" alt="test">
             </picture>
         </article>
 
@@ -52,9 +52,9 @@ require_once 'header.php';
             </div>
             <picture>
                 <!-- Desktop -->
-                <source media="(min-width:1200px)" srcset="img/buñada/deskatop_buñada_carrusel2.jpg" alt="Logo Carpinteria Zubillaga">
+                <source media="(min-width:1200px)" srcset="img/bunada/deskatop_bunada_carrusel2.jpg" alt="Logo Carpinteria Zubillaga">
                 <!-- Mobile  -->
-                <img src="img/buñada/mobile_buñada_carrusel2.jpg" alt="Foto de una parte de una puerta enchapada">
+                <img src="img/bunada/mobile_bunada_carrusel2.jpg" alt="Foto de una parte de una puerta enchapada">
             </picture>
         </article>
 

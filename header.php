@@ -61,6 +61,8 @@ if (
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://zubillagapuertasnobles.com/" />
 	<meta name="description" content="Descripción de tu página">
+	<link rel="canonical" href="https://zubillagapuertasnobles.com/">
+
 </head>
 
 <body <?php if (basename($_SERVER['SCRIPT_FILENAME']) !== "index.php") {
