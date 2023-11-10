@@ -31,7 +31,7 @@ footer {
             justify-content: center;
             flex-wrap: wrap;
             @media (min-width: 768px) {
-                width: 70%;
+                padding-left: 84px;
             }
             li {
                 padding-right: 5px;
@@ -46,9 +46,9 @@ footer {
                 border-right: solid 1px;
                 border-left: solid 1px;
             }
-            li:nth-child(3) {
-                border-right: solid 1px;
-            }
+            // li:nth-child(3) {
+            //     border-right: solid 1px;
+            // }
         }
     }
     ul:nth-child(2) {
