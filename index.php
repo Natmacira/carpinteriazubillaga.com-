@@ -10,7 +10,7 @@ require_once 'header.php';
 		<article class="swiper-slide main-top">
 			<div class="content-div">
 			 
-				<h1>Puertas espaciales, <br><span> PEDIDOS ÚNICOS</span></h1>
+				<h1>Exclusividad que <br><span> refleja tú hogar</span></h1>
 				<a href="index.php#nobles">+ info</a></figcaption>
 			</div>
 			<picture>

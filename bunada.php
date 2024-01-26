@@ -59,7 +59,7 @@ require_once 'header.php';
         </article>
 
     </div>
-    <div class="swiper-pagination"></div>
+    <div class="swiper-pagination">hola</div>
 
 </section>
 

@@ -377,7 +377,8 @@ body {
 						border: none;
 						margin-top: 3px;
 						margin-left: 3px;
-
+						border: solid 1px black;
+						background-color: #ced1d6;
 						&[type="text"] {
 							width: 30%;
 							@media (min-width: 768px) {
@@ -408,7 +409,8 @@ body {
 				width: 95%;
 				margin: 0 auto;
 				border-radius: 3px;
-				border: none;
+				border: solid 1px black;
+				background-color: #ced1d6;
 				height: 60px;
 				height: 100px;
 				&::placeholder {
