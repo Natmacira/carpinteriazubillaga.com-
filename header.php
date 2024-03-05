@@ -11,7 +11,7 @@ if (
 		!empty(strip_tags($_POST['nombre'])) &&
 		!empty(strip_tags($_POST['consulta']))
 	) {
-		$to      = 'tecnica@zubillagapuertasnobles.com';
+		$to      = 'tecnica.zubillagapuertasnobles@gmail.com';
 		$subject = 'Mensaje dejado en Formulario de Contacto';
 		$message = 'Recibiste un mensaje en tu sitio web con la siguiente informaci&oacute;n:<br>
 		Nombre: ' . strip_tags($_POST['nombre']) . '<br>
